@@ -1,0 +1,36 @@
+[
+	{
+		"title": "Preperations",
+		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+
+		"Deliverables": [
+			{
+				"label": "item1",
+				"description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+				"url": "www.google.com"
+			},
+			{
+				"label": "item2",
+				"description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+				"url": "www.google.com"
+			}
+		]
+	},
+	{
+		"title": "Concepting",
+		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+
+		"Deliverables": [
+			{
+				"label": "item1",
+				"description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+				"url": "www.google.com"
+			},
+			{
+				"label": "item2",
+				"description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+				"url": "www.google.com"
+			}
+		]
+	}
+]

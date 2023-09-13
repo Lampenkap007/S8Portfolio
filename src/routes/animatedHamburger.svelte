@@ -16,9 +16,11 @@
 				borderRadius: '0%',
 				duration: 0.2
 			});
-			gsap.to('.navContent', {
-				display: 'block'
-			});
+			gsap
+				.to('.navContent', {
+					display: 'block'
+				})
+				.delay(0.5);
 		} else {
 			gsap.to('.navBar', {
 				width: '9rem',

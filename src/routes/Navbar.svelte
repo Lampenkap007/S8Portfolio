@@ -11,7 +11,7 @@
 
 <style lang="scss">
 	.navBar {
-		position: absolute;
+		position: fixed;
 		background-color: white;
 		width: 9rem;
 		height: 9rem;
