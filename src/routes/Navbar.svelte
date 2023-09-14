@@ -12,6 +12,7 @@
 <style lang="scss">
 	.navBar {
 		position: fixed;
+		overflow-x: hidden;
 		background-color: white;
 		width: 9rem;
 		height: 9rem;

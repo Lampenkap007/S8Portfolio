@@ -15,6 +15,7 @@
 
 <style lang="scss">
 	@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat&display=swap');
 
 	.landingpage {
 		font-family: 'Comfortaa', cursive;

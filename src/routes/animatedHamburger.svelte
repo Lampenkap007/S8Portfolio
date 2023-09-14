@@ -14,6 +14,7 @@
 				left: '0px',
 				right: '0px',
 				borderRadius: '0%',
+				overflowY: 'scroll',
 				duration: 0.2
 			});
 			gsap
@@ -26,9 +27,10 @@
 				width: '9rem',
 				height: '9rem',
 				borderRadius: '0% 0% 100% 0%',
+				overflowY: 'hidden',
 				duration: 0.2
 			});
-			gsap.to('.navContent', {
+			gsap.to('#NavContent', {
 				display: 'none'
 			});
 		}
@@ -102,7 +104,7 @@
 	}
 
 	.navbarButton {
-		position: absolute;
+		position: fixed;
 		top: 1rem;
 		left: 1rem;
 		background: none;

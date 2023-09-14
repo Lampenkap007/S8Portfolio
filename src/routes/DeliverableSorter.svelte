@@ -10,6 +10,12 @@
 			width: '100%',
 			duration: 0.5
 		});
+		gsap.to('.projectContentByLearningOutcome', {
+			visibility: 'hidden'
+		});
+		gsap.to('.projectContentByPhase', {
+			visibility: 'visible'
+		});
 	}
 
 	function toggle2() {
@@ -20,6 +26,12 @@
 		gsap.to('.indicator2', {
 			width: '100%',
 			duration: 0.5
+		});
+		gsap.to('.projectContentByPhase', {
+			visibility: 'hidden'
+		});
+		gsap.to('.projectContentByLearningOutcome', {
+			visibility: 'visible'
 		});
 	}
 </script>

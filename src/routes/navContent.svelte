@@ -4,16 +4,15 @@
 	import DeliverableSorter from './DeliverableSorter.svelte';
 </script>
 
-<div class="navContent">
+<div class="navContent" id="NavContent">
 	<DeliverableSorter />
 	<ProjectContent />
 </div>
 
 <style lang="scss">
 	.navContent {
+		display: none;
 		height: 100vh;
 		width: 100%;
-		padding-left: 12rem;
-		padding-right: 12rem;
 	}
 </style>
