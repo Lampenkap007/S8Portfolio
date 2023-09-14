@@ -1,7 +1,7 @@
 [
 	{
-		"title": "Learning Outcome 1",
-		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"title": "1. Professional Duties",
+		"introduction": "You carry out the professional duties on a bachelor level resulting in professional products in line with the IT-area you are working in.",
 		"accentColor": "#ff6651",
 		"deliverables": [
 			{
@@ -17,8 +17,8 @@
 		]
 	},
 	{
-		"title": "Concepting",
-		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"title": "2. Situation-Orientation",
+		"introduction": "You apply your previously acquired knowledge and skills in a new and authentic context to deliver relevant and valuable results for the project and company.",
 		"accentColor": "#54baf3",
 
 		"deliverables": [
@@ -35,8 +35,8 @@
 		]
 	},
 	{
-		"title": "UI Design",
-		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"title": "3. Future-Oriented Organisation",
+		"introduction": "You explore the organisational context of your project, make business, sustainable and ethical considerations and manage all aspects of the execution of the project.",
 		"accentColor": "#ffb905",
 
 		"deliverables": [
@@ -53,9 +53,45 @@
 		]
 	},
 	{
-		"title": "Development",
-		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"title": "4. Investigative Problem Solving",
+		"introduction": "You take a critical look at your project from different perspectives, identify problems, find an effective approach for solving them and arrive at appropriate solutions.",
 		"accentColor": "#705df2",
+
+		"deliverables": [
+			{
+				"label": "item1",
+				"description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+				"url": "www.google.com"
+			},
+			{
+				"label": "item2",
+				"description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+				"url": "www.google.com"
+			}
+		]
+	},
+	{
+		"title": "5. Personal Leadership",
+		"introduction": "You show an entrepreneurial attitude in both your project and personal development, you pay attention to your own learning ability and keep in mind what kind of IT professional and/or what type of positions you aspire to.",
+		"accentColor": "#52B788",
+
+		"deliverables": [
+			{
+				"label": "item1",
+				"description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+				"url": "www.google.com"
+			},
+			{
+				"label": "item2",
+				"description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+				"url": "www.google.com"
+			}
+		]
+	},
+	{
+		"title": "6. Targeted Interaction",
+		"introduction": "You determine which partners play a role in your project, collaborate constructively with them and communicate appropriately to achieve the desired impact.",
+		"accentColor": "#63ADF2",
 
 		"deliverables": [
 			{

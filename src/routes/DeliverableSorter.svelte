@@ -39,11 +39,11 @@
 <div class="deliverableSorter">
 	<div class="toggle">
 		<button on:click={toggle1} class="toggleOption">
-			<span>Project Phase</span>
+			<span>Project Phases</span>
 			<div class="indicator indicator1" />
 		</button>
 		<button on:click={toggle2} class="toggleOption">
-			<span>Learning Outcome</span>
+			<span>Learning Outcomes</span>
 			<div class="indicator indicator2" />
 		</button>
 	</div>

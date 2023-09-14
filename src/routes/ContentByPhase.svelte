@@ -6,8 +6,11 @@
 	<ul class="cards">
 		{#each data as card}
 			<li class="card" style="color: {card.accentColor};">
-				<h2 class="cardTitle">{card.title}</h2>
-				<span class="cardIntro">{card.introduction}</span>
+				<div>
+					<h2 class="cardTitle">{card.title}</h2>
+					<span class="cardIntro">{card.introduction}</span>
+				</div>
+
 				<ul class="deliverableList">
 					{#each card.deliverables as deliverable, i}
 						<li class="deliverableItem">
@@ -42,8 +45,11 @@
 		padding-bottom: 5rem;
 	}
 	.card {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 		font-family: 'Comfortaa', cursive;
-		box-shadow: 10px 10px 36px 15px rgba(0, 0, 0, 0.08);
+		box-shadow: 10px 10px 36px 15px rgba(0, 0, 0, 0.05);
 		width: 25rem;
 		padding: 3rem;
 		border-radius: 2rem;

@@ -28,6 +28,7 @@
 
 	h1 {
 		font-size: 4rem;
+		color: #ff6651;
 	}
 
 	.landingpageHero {
