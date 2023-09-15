@@ -6,6 +6,7 @@
 	</div>
 	<div class="langdingpage3D">
 		<iframe
+			title="3DFrame"
 			class="threeCanvas"
 			src="https://650193ebceeaf66e90e0bf46--glittery-raindrop-946462.netlify.app/"
 			frameborder="0"

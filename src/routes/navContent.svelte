@@ -1,6 +1,5 @@
 <script>
 	import ProjectContent from './ProjectContent.svelte';
-
 	import DeliverableSorter from './DeliverableSorter.svelte';
 </script>
 
