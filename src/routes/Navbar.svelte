@@ -1,6 +1,6 @@
 <script>
-	import NavContent from './Navcontent.svelte';
 	import AnimatedHamburger from './AnimatedHamburger.svelte';
+	import NavContent from './Navcontent.svelte';
 </script>
 
 <nav id="navbar" class="navBar">
