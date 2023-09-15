@@ -1,5 +1,5 @@
 <script>
-	import NavContent from './NavContent.svelte';
+	import NavContent from './Navcontent.svelte';
 	import AnimatedHamburger from './AnimatedHamburger.svelte';
 </script>
 
