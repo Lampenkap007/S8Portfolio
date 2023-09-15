@@ -1,5 +1,5 @@
 <script>
-	import data from '../lib/assets/data/contentByLearningOutcome.json';
+	import data from '../assets/data/contentByLearningOutcome.json';
 </script>
 
 <div class="projectContentByLearningOutcome">

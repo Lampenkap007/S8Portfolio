@@ -1,7 +1,7 @@
 <script>
-	import Landingpage from './Landingpage.svelte';
-	// import Navbar from './Navbar.svelte';
+	import Landingpage from '../lib/components/Landingpage.svelte';
+	import Navbar from '../lib/components/Navbar.svelte';
 </script>
 
-<!-- <Navbar /> -->
+<Navbar />
 <Landingpage />

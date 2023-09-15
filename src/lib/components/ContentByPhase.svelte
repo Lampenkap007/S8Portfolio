@@ -1,5 +1,5 @@
 <script>
-	import data from '../lib/assets/data/contentByPhase.json';
+	import data from '../assets/data/contentByPhase.json';
 </script>
 
 <div class="projectContentByPhase">
