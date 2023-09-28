@@ -104,6 +104,7 @@
 	}
 
 	.navbarButton {
+		z-index: 99;
 		position: fixed;
 		top: 1rem;
 		left: 1rem;
