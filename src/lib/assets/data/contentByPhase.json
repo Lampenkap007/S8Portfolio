@@ -5,8 +5,8 @@
 		"accentColor": "#ff6651",
 		"deliverables": [
 			{
-				"label": "item1",
-				"url": "/deliverables/deliverable1"
+				"label": "Project Plan",
+				"url": "/deliverables/projectplan"
 			},
 			{
 				"label": "item2",
