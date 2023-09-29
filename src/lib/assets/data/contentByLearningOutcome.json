@@ -6,11 +6,11 @@
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			}
 		]
 	},
@@ -22,11 +22,11 @@
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			}
 		]
 	},
@@ -38,11 +38,11 @@
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			}
 		]
 	},
@@ -54,11 +54,11 @@
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			}
 		]
 	},
@@ -70,11 +70,11 @@
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			}
 		]
 	},
@@ -86,11 +86,11 @@
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			}
 		]
 	}

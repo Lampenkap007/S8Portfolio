@@ -15,7 +15,7 @@
 					{#each card.deliverables as deliverable, i}
 						<li class="deliverableItem">
 							<div class="deliverableIndex" style="color: {card.accentColor};">{i + 1}</div>
-							<a class="deliverableItemLabel" target="_blank" href={deliverable.url}
+							<a class="deliverableItemLabel" href={deliverable.url} target="_self"
 								>{deliverable.label}</a
 							>
 						</li>

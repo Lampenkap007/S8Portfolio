@@ -1,16 +1,16 @@
 [
 	{
-		"title": "Preperations",
+		"title": "Preperations and Management",
 		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
 		"accentColor": "#ff6651",
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable2"
 			}
 		]
 	},
@@ -22,11 +22,11 @@
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			}
 		]
 	},
@@ -38,11 +38,11 @@
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			}
 		]
 	},
@@ -54,11 +54,27 @@
 		"deliverables": [
 			{
 				"label": "item1",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
 			},
 			{
 				"label": "item2",
-				"url": "www.google.com"
+				"url": "/deliverables/deliverable1"
+			}
+		]
+	},
+	{
+		"title": "Personal Development",
+		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"accentColor": "#52B788",
+
+		"deliverables": [
+			{
+				"label": "item1",
+				"url": "/deliverables/deliverable1"
+			},
+			{
+				"label": "item2",
+				"url": "/deliverables/deliverable1"
 			}
 		]
 	}

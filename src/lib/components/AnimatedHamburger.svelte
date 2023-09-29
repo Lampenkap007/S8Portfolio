@@ -23,13 +23,15 @@
 				})
 				.delay(0.5);
 		} else {
-			gsap.to('.navBar', {
-				width: '9rem',
-				height: '9rem',
-				borderRadius: '0% 0% 100% 0%',
-				overflowY: 'hidden',
-				duration: 0.2
-			});
+			gsap
+				.to('.navBar', {
+					width: '9rem',
+					height: '9rem',
+					borderRadius: '0% 0% 100% 0%',
+					overflowY: 'hidden',
+					duration: 0.2
+				})
+				.delay(0.5);
 			gsap.to('#NavContent', {
 				display: 'none'
 			});

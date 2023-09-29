@@ -4,14 +4,6 @@
 		<h2>Improving the Grand Prix experience <br /> for F1 viewers at home</h2>
 		<h3>By Jordi Franssen</h3>
 	</div>
-	<div class="langdingpage3D">
-		<iframe
-			title="3DFrame"
-			class="threeCanvas"
-			src="https://650193ebceeaf66e90e0bf46--glittery-raindrop-946462.netlify.app/"
-			frameborder="0"
-		/>
-	</div>
 </div>
 
 <style lang="scss">
@@ -20,6 +12,7 @@
 
 	.landingpage {
 		font-family: 'Comfortaa', cursive;
+		font-size: larger;
 		width: 100%;
 		height: 100vh;
 		display: flex;
@@ -28,7 +21,6 @@
 	}
 
 	h1 {
-		font-size: 4rem;
 		color: #ff6651;
 	}
 
@@ -38,8 +30,9 @@
 		gap: 1rem;
 	}
 
-	.threeCanvas {
-		height: 50vh;
-		width: 40vw;
+	@media only screen and (max-width: 1200px) {
+		.landingpage {
+			font-size: small;
+		}
 	}
 </style>

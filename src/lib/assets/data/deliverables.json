@@ -2,7 +2,13 @@
 	"deliverable1": {
 		"name": "Deliverable 1",
 		"summary": "Lorem ipsum dolor sit amet consectetur adipiscing elit eu, lacinia aenean lacus dictum dapibus eros. Metus praesent convallis vestibulum fames vulputate urna dictum auctor suscipit sed, quam in eu tempus rutrum eleifend senectus accumsan rhoncus, lacus magnis ultrices blandit ullamcorper molestie scelerisque dapibus sollicitudin.",
-		"imageUrl": "www.google.com",
-		"documentUrl": "www.google.com"
+		"imageUrl": "https://images.pexels.com/photos/15591206/pexels-photo-15591206/free-photo-of-under.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"documentUrl": "RNnlgeneral.pdf"
+	},
+	"deliverable2": {
+		"name": "Deliverable 2",
+		"summary": "Lorem ipsum dolor sit amet consectetur adipiscing elit eu, lacinia aenean lacus dictum dapibus eros. Metus praesent convallis vestibulum fames vulputate urna dictum auctor suscipit sed, quam in eu tempus rutrum eleifend senectus accumsan rhoncus, lacus magnis ultrices blandit ullamcorper molestie scelerisque dapibus sollicitudin.",
+		"imageUrl": "https://images.pexels.com/photos/15591206/pexels-photo-15591206/free-photo-of-under.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"documentUrl": "RNnlgeneral.pdf"
 	}
 }
