@@ -23,7 +23,7 @@
 				<h1 class="contentTitle">{data[deliverable].name}</h1>
 				<a
 					class="documentLink"
-					href="/docs/{data[deliverable].documentUrl}"
+					href={data[deliverable].documentUrl}
 					target="_blank"
 					rel="noopener noreferrer"
 				>

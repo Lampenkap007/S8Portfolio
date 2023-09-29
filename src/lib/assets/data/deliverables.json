@@ -1,15 +1,15 @@
 {
 	"projectplan": {
 		"name": "Project Plan",
-		"summary": "Lorem ipsum dolor sit amet consectetur adipiscing elit eu, lacinia aenean lacus dictum dapibus eros. Metus praesent convallis vestibulum fames vulputate urna dictum auctor suscipit sed, quam in eu tempus rutrum eleifend senectus accumsan rhoncus, lacus magnis ultrices blandit ullamcorper molestie scelerisque dapibus sollicitudin.",
-		"imageUrl": "https://images.pexels.com/photos/15591206/pexels-photo-15591206/free-photo-of-under.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"documentUrl": "RNnlgeneral.pdf",
+		"summary": "The project plan outlines the general setup of this project and can be seen as a roadmap that includes all necessary information like project assignment, organisation, scope, planning, practices, approach to research and deliverables. The project plan is eventually used to get approval to start the internship.",
+		"imageUrl": "/img/pexels-bich-tran-669986.jpg",
+		"documentUrl": "https://docs.google.com/document/d/14vrlimfjDGoUlEJZRyYKMt837b_YfnJ_tFa06_uXLDg/edit?usp=sharing",
 		"date": "04-09-2023",
-		"research": "Multiple",
+		"research": "Deskresearch",
 		"phase": "Preperations"
 	},
-	"deliverable2": {
-		"name": "Deliverable 2",
+	"notion": {
+		"name": "Notion",
 		"summary": "Lorem ipsum dolor sit amet consectetur adipiscing elit eu, lacinia aenean lacus dictum dapibus eros. Metus praesent convallis vestibulum fames vulputate urna dictum auctor suscipit sed, quam in eu tempus rutrum eleifend senectus accumsan rhoncus, lacus magnis ultrices blandit ullamcorper molestie scelerisque dapibus sollicitudin.",
 		"imageUrl": "https://images.pexels.com/photos/15591206/pexels-photo-15591206/free-photo-of-under.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"documentUrl": "RNnlgeneral.pdf"
