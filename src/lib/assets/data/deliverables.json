@@ -10,8 +10,92 @@
 	},
 	"notion": {
 		"name": "Notion",
-		"summary": "Lorem ipsum dolor sit amet consectetur adipiscing elit eu, lacinia aenean lacus dictum dapibus eros. Metus praesent convallis vestibulum fames vulputate urna dictum auctor suscipit sed, quam in eu tempus rutrum eleifend senectus accumsan rhoncus, lacus magnis ultrices blandit ullamcorper molestie scelerisque dapibus sollicitudin.",
-		"imageUrl": "https://images.pexels.com/photos/15591206/pexels-photo-15591206/free-photo-of-under.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"documentUrl": "RNnlgeneral.pdf"
+		"summary": "This semester, I used Notion to manage and overview my project and other study related tasks. This is the first time I'm using this tool and I can say that I'm positively surprised about it. I've never kept track of my tasks and deliverables this well in any other semester. This Notion contains scrum boards, notes, links to presentations and deliverables and more and will in the end provide a complete overview of the entire semester.",
+		"imageUrl": "/img/home-hero.png",
+		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
+		"date": "Not applicable",
+		"research": "Not applicable",
+		"phase": "Entire project"
+	},
+	"availableproductanalysis": {
+		"name": "Available Product Analysis",
+		"summary": "An available product analysis can be conducted to assess the competitive landscape and existing products or services within a particular market. The goal of this research is to provide insights in similar products or services that already offer a solution to visualizing data with 3D elements, possibly with the intention to make a product more interesting for consumers. These insights can eventually be used as inspiration in the ideation phase of the Double Diamond. <br><br> Since it isn't yet specified what kind of product will eventually be realized, this research will focus on visualizing sports in 3D. <br><br> In this analysis are a few interesting products found. Digital Twins is a concept that can almost apply to anything and therefore also F1. By making a digital twin for an entire F1 race, or maybe just a part of it, like a pit stop for example, allows for detailed analysis by fans.<br><br> Unity Metacast is particularly interesting to use as an example of what the possibilities of digital twins can actually do. The technology cannot be copy-pasted to F1, because it relies on green screen technology. However, it's very useful for inspiration.<br><br> The videos from F1 addict are also a great example of what's possible with 3D and F1. The disadvantage of this concept is that it takes a lot of time to make these videos. This however also results in an interesting idea; Is it possible to automate this process using ThreeJS, and visualize a race in 3D?<br><br> F1TV Pro is probably the best example of an available product that already exists. It visualizes data by plotting the drivers position on a map of the circuit. However, this isn't in 3D. It's expected that making a 3D version of this, results in a more in depth analysis by F1 fans, which results in more engagement.<br><br> Finally, F1 Race Visualizer is an app that takes an approach in historical racing data. This app only displays race progression, however, there's much more data to be found in the Ergast API and this product doesn't have any 3D elements.<br><br>",
+		"imageUrl": "/img/pexels-lil-artsy-1314410.jpg",
+		"documentUrl": "https://docs.google.com/document/d/1Nwsh0zmCA8MmwlRhelnxVwMvQLGoVpiMI8Gd5Q1HLuw/edit?usp=sharing",
+		"date": "05-09-2023",
+		"research": "Library Research",
+		"phase": "Orientation and Concepting"
+	},
+	"availabledataanalysis": {
+		"name": "Available Data Analysis",
+		"summary": "One of this project's research questions asks what data is available from an F1 race. The answer for this question is required for the Double Diamond's ideation phase, where a solution for the problem statement will be defined. <br><br> This question will primarily be answered using library research. However, RacingNews already makes use of an API for Formula 1 data. This API is undocumented however, and not much can be found online about it. So information about this API will have to come from TDE itself.<br><br> Also, in this research, I'm also looking for data that could be interesting to visualize with ThreeJS. Think of GPS data of Formula 1 cars for example.<br><br> It seems like two types of data can be used for this project: live data and historical data. Further research will tell what data will eventually be used. However, it's good to know what data is available to get a better understanding of what's possible to build.<br><br> The three APIs found are all very interesting. Although Fast-F1 is the most reliable datasource, it isn't an option as it's unsuitable for web applications. The other two APIs will work fine with web apps, but the undocumented API is risky to use, and Ergast will shut down next year.<br><br> Both Ergast and the undocumented API don't provide any location data that can be used in ThreeJS. Further research will tell what data can be visualized using ThreeJS and how.",
+		"imageUrl": "/img/pexels-lukas-590022.jpg",
+		"documentUrl": "https://docs.google.com/document/d/1RdJ-HJGdh8pljJCTHmVwz5RTRG9IG7DuPhvGCP4Rxrw/edit?usp=sharing",
+		"date": "18-09-2023",
+		"research": "Library Research",
+		"phase": "Orientation and Concepting"
+	},
+	"fanengagementstrategies": {
+		"name": "Fan Engagement Strategies",
+		"summary": "During my search for 3D applications within sports, I found that this topic contracts with so-called fan engagement strategies. This topic falls in line with the general goal of this project, namely improving the F1 experience for viewers at home by creating more engagement. <br><br> According to BILUe, fan engagement in sports is an act of providing an end to end experience for a sports audience. This starts before a match, during a match and after a match. The ultimate goal is to have a more personal connection with the sport or brand. <br><br> This document provides a summary of a few findings that were found online. In the end it is concluded how this information can be useful for this project. <br><br> Fan engagement strategies are important to provide an end-to-end experience for sports fans. By providing content during a match but also on non-match days. RacingNews already offers content on non-match days, but this content isn't exclusive to RacingNews. Same counts for the live-timing data. It's also interesting to investigate if any kind of interactivity should be included in the project, this can be local with things like gamification, but also social with other people.",
+		"imageUrl": "/img/pexels-sk-814133.jpg",
+		"documentUrl": "https://docs.google.com/document/d/1W-NzbCbUIzgo9ZKQvKMegBAlIOj03Av7L932cknQ2ec/edit?usp=sharing",
+		"date": "18-09-2023",
+		"research": "Library Research",
+		"phase": "Orientation and Concepting"
+	},
+	"availalbetechnologiesanalysis": {
+		"name": "Available Technologies Analysis",
+		"summary": "This project will involve multiple technologies that are new to me and some of them contain quite a steep learning curve. ThreeJS is probably the largest one. Fortunately, TDE has a course available that consists of about 80 hours of material. Next I'll write small summaries of technologies that I found during my research. In the end I'll conclude how these technologies could be useful for the project. <br><br> During my own TheeJS journey, I've heard multiple times that the possibilities are limitless. This of course doesn't mean much, but I found that TheeJS is quite capable. It's possible to visualize as much detail as you want, as long as the hardware is powerful enough. ThreeJS feels a bit like Unity3D but scaled down to fit in a web package. Therefore, it's certainly possible to build entire games with it, or make highly realistic digital twins of real-world items or environments. ThreeJS also supports physics, which allows for running simulations and more. <br><br> Next, there's React-three-fiber which is a front-end framework built to make integrating ThreeJS in React or Next much easier. <br><br> At last, Yuka is a library that might be really interesting for the general goal of this project; to visualize Formula 1 data in 3D. Yuka enables you to simulate vehicle behavior in a 3D web environment. This means it's also possible to simulate entire F1 races in 3D, based on timing data. <br><br>",
+		"imageUrl": "/img/technologies.jpg",
+		"documentUrl": "https://docs.google.com/document/d/1sS0wi5vEQY9FZUw1GvNjbl8w6A75Dsrg3gICDaD33IU/edit?usp=sharing",
+		"date": "08-09-2023",
+		"research": "Library Research",
+		"phase": "Orientation and Concepting"
+	},
+	"onlinesurvey": {
+		"name": "Online Survey",
+		"summary": "October 9th, a focus group discussion is planned to define a concept for this project. It would be useful to include target audience interests with this discussion. Therefore, I released a survey with the goal to identify target audience interests. <br> <br> In this document, I have summarized the survey questions and their respective responses and drew conclusions regarding topics to be discussed during the focus group discussion. These conclusions will be visualized in personas, empathy maps and customer journeys in the user-centered-design analysis. <br><br> Thanks to this survey we have a great input for the focus group. We now know that the 3D visualization tool will be a secondary source of information for people who follow Formula 1 and that users are primarily watching TV to follow an F1 race. Also, people don't make much use of second screens during a live race while they're watching the TV. This means that users have their mobile phones available for potential 3D visualizations. Next, users replay a race quite often. Which makes making 3D visualizations during a replay an option to consider. <br><br> Users find historical data more interesting than live timing data. But there's not much difference. Making a tool for comparing live timing data with historical data is considered to be not that interesting, but it might be interesting to add at a later stage. In addition, the tool will provide the ability to control the 3D visualizations with zoom, rotation etc and people have relatively fast internet so we don't have to be extremely careful with larger 3D models. Gamification will not be important for the project, however it might be interesting for further development at a later stage and users prefer a freemium model as a payment method. <br><br>",
+		"imageUrl": "/img/pexels-lukas-669613.jpg",
+		"documentUrl": "https://docs.google.com/document/d/1sQPTd4AKi0mAlvhJC4RewRhu6ZAmvQ0Nxg_iAeNZlqI/edit?usp=sharing",
+		"date": "25-09-2023",
+		"research": "Field Research",
+		"phase": "Orientation and Concepting"
+	},
+	"targetaudienceanalysis": {
+		"name": "Target Audience Analysis",
+		"summary": "RacingNews has a general target audience based on the visitors of their websites. In this document I'll take a look at the analytics of these websites and make a conclusion on what's interesting to include in the project. Later these conclusions will be an input for personas, empathy maps and customer journeys in the user-centered-design analysis. <br><br> Based on the data provided by Google Analytics, the target audience for RacingNews is 35 years or older, with the biggest audience at 65+. The target audience uses the website most often during or after a racing weekend and primarily uses smartphones to access the website. Google Chrome and Safari are the two most popular web browsers.",
+		"imageUrl": "/img/pexels-hasan-albari-1424745.jpg",
+		"documentUrl": "https://docs.google.com/document/d/14PeIeQcrhOACbNm3CaA-IeQcVOfDhON0ACb4aLf95cE/edit?usp=sharing",
+		"date": "27-09-2023",
+		"research": "Lab Research",
+		"phase": "Orientation and Concepting"
+	},
+	"usercentereddesignanalysis": {
+		"name": "User-Centered Design Analysis",
+		"summary": "Work in progress",
+		"imageUrl": "/img/home-hero.png",
+		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
+		"date": "Not applicable",
+		"research": "Not applicable",
+		"phase": "Entire project"
+	},
+	"focusgroupdiscussion": {
+		"name": "Focusgroup Discussion",
+		"summary": "Work in progress",
+		"imageUrl": "/img/home-hero.png",
+		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
+		"date": "Not applicable",
+		"research": "Not applicable",
+		"phase": "Entire project"
+	},
+	"feasibilitystudy": {
+		"name": "Feasibility Study",
+		"summary": "Work in progress",
+		"imageUrl": "/img/home-hero.png",
+		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
+		"date": "Not applicable",
+		"research": "Not applicable",
+		"phase": "Entire project"
 	}
 }

@@ -4,9 +4,6 @@
 	import data from '../../../lib/assets/data/deliverables.json';
 
 	const deliverable = $page.params.deliverable;
-	console.log(deliverable);
-	// @ts-ignore
-	console.log(data[deliverable]);
 </script>
 
 <Navbar />
@@ -80,7 +77,7 @@
 			</div>
 			<div class="contentBlockRight">
 				<h2 class="summaryTitle">Summary</h2>
-				<div class="summary">{data[deliverable].summary}</div>
+				<div class="summary">{@html data[deliverable].summary}</div>
 			</div>
 		</div>
 	</div>

@@ -47,7 +47,6 @@
 	.card {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
 		font-family: 'Comfortaa', cursive;
 		box-shadow: 10px 10px 36px 15px rgba(0, 0, 0, 0.05);
 		width: 25rem;

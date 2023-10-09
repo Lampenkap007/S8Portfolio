@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Preperations and Management",
-		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"introduction": "Preparation and management are pivotal to a project's success. They ensure clear objectives, efficient resource allocation, and anticipation of challenges. Proper preparation sets the stage for smooth execution, while effective management keeps the project on course and ensures quality outcomes.",
 		"accentColor": "#ff6651",
 		"deliverables": [
 			{
@@ -15,24 +15,52 @@
 		]
 	},
 	{
-		"title": "Concepting",
-		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"title": "Orientation and Concepting",
+		"introduction": "Orientation and concepting anchor a project's direction and vision. By thoroughly understanding the problem statement, we ensure relevant solutions. Defining the concept provides a clear roadmap for development. Together, they guide a project from vague ideas to focused strategies, ensuring alignment with goals and audience needs.",
 		"accentColor": "#54baf3",
 
 		"deliverables": [
 			{
-				"label": "item1",
-				"url": "/deliverables/deliverable1"
+				"label": "Available Product Analysis",
+				"url": "/deliverables/availableproductanalysis"
 			},
 			{
-				"label": "item2",
-				"url": "/deliverables/deliverable1"
+				"label": "Available Data Analysis",
+				"url": "/deliverables/availabledataanalysis"
+			},
+			{
+				"label": "Fan Engagement Strategies",
+				"url": "/deliverables/fanengagementstrategies"
+			},
+			{
+				"label": "Available Technologies Analysis",
+				"url": "/deliverables/availalbetechnologiesanalysis"
+			},
+			{
+				"label": "Online Survey",
+				"url": "/deliverables/onlinesurvey"
+			},
+			{
+				"label": "Target Audience Analysis",
+				"url": "/deliverables/targetaudienceanalysis"
+			},
+			{
+				"label": "User-Centered Design Analysis",
+				"url": "/deliverables/usercentereddesignanalysis"
+			},
+			{
+				"label": "Focusgroup Discussion",
+				"url": "/deliverables/focusgroupdiscussion"
+			},
+			{
+				"label": "Feasibility Study",
+				"url": "/deliverables/feasibilitystudy"
 			}
 		]
 	},
 	{
 		"title": "UI Design",
-		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"introduction": "Geen lorem ipsum text",
 		"accentColor": "#ffb905",
 
 		"deliverables": [
@@ -48,7 +76,7 @@
 	},
 	{
 		"title": "Development",
-		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"introduction": "Geen lorem ipsum text",
 		"accentColor": "#705df2",
 
 		"deliverables": [
@@ -64,7 +92,7 @@
 	},
 	{
 		"title": "Personal Development",
-		"introduction": "Lorem ipsum dolor sit amet consectetur adipiscing elit, luctus tellus cursus class auctor leo, condimentum turpis purus urna nostra integer. Metus risus venenatis hendrerit vehicula habitant tortor fermentum curabitur etiam torquent,",
+		"introduction": "Personal development drives professional evolution. This semester, I honed my communication skills and delved into the realm of artificial intelligence, recognizing its potential for my role as a designer and developer. This growth not only enhances my capabilities but also broadens my contributions to the dynamic intersection of development and design.",
 		"accentColor": "#52B788",
 
 		"deliverables": [
