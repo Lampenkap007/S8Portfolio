@@ -3,13 +3,13 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import data from '../../../lib/assets/data/deliverables.json';
 
-	const deliverable = $page.params.deliverable;
+	const pageContent = data[$page.params.deliverable];
 </script>
 
 <Navbar />
 <div class="contentPage">
 	<div class="contentBlock">
-		<div class="banner" style="background-image: url({data[deliverable].imageUrl});" />
+		<div class="banner" style="background-image: url({pageContent.imageUrl});" />
 		<a class="documentLink" href="/"
 			><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
 				><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" /></svg
@@ -17,10 +17,10 @@
 		>
 		<div class="contentBlockDevider">
 			<div class="contentBlockLeft">
-				<h1 class="contentTitle">{data[deliverable].name}</h1>
+				<h1 class="contentTitle">{pageContent.name}</h1>
 				<a
 					class="documentLink"
-					href={data[deliverable].documentUrl}
+					href={pageContent.documentUrl}
 					target="_blank"
 					rel="noopener noreferrer"
 				>
@@ -44,7 +44,7 @@
 									d="M360-300q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"
 								/></svg
 							>
-							{data[deliverable].date}
+							{pageContent.date}
 						</li>
 						<li class="deliverableDetailListItem">
 							<svg
@@ -57,7 +57,7 @@
 									d="M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Zm0-80h560L520-492v-268h-80v268L200-200Zm280-280Z"
 								/></svg
 							>
-							{data[deliverable].research}
+							{pageContent.research}
 						</li>
 						<li class="deliverableDetailListItem">
 							<svg
@@ -70,14 +70,98 @@
 									d="m520-384 56-56-96-96v-184h-80v216l120 120ZM368-249q16-48 56.5-79.5T518-360h152q24-34 37-74.5t13-85.5q0-117-81.5-198.5T440-800q-117 0-198.5 81.5T160-520q0 98 58.5 172.5T368-249ZM520-40q-58 0-102-36.5T363-168q-122-26-202.5-124T80-520q0-150 105-255t255-105q150 0 255 105t105 255q0 43-9.5 83.5T763-360q66 0 111.5 47T920-200q0 66-47 113T760-40H520Zm-80-485Zm200 325Zm-120 80h240q33 0 56.5-23.5T840-200q0-33-23.5-56.5T760-280H520q-33 0-56.5 23.5T440-200q0 33 23.5 56.5T520-120Zm0-40q-17 0-28.5-11.5T480-200q0-17 11.5-28.5T520-240q17 0 28.5 11.5T560-200q0 17-11.5 28.5T520-160Zm120 0q-17 0-28.5-11.5T600-200q0-17 11.5-28.5T640-240q17 0 28.5 11.5T680-200q0 17-11.5 28.5T640-160Zm120 0q-17 0-28.5-11.5T720-200q0-17 11.5-28.5T760-240q17 0 28.5 11.5T800-200q0 17-11.5 28.5T760-160Z"
 								/></svg
 							>
-							{data[deliverable].phase}
+							{pageContent.phase}
+						</li>
+						<li class="deliverableDetailListItem learningOutcomesModifier">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="#000"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="icon feather feather-award"
+								><circle cx="12" cy="8" r="7" /><polyline
+									points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"
+								/></svg
+							>
+							<div class="learningOutcomes">
+								{#if pageContent.learningOutcomes.includes(1)}
+									<div class="tooltip" id="LO1">
+										Professional Duties,
+										<span class="tooltiptext"
+											>You carry out the professional duties on a bachelor level resulting in
+											professional products in line with the IT-area you are working in.
+										</span>
+									</div>
+									&nbsp
+								{/if}
+								{#if pageContent.learningOutcomes.includes(2)}
+									<div class="tooltip" id="LO2">
+										Situation-Orientation,
+										<span class="tooltiptext"
+											>You apply your previously acquired knowledge and skills in a new and
+											authentic context to deliver relevant and valuable results for the project and
+											company.
+										</span>
+									</div>
+									&nbsp
+								{/if}
+								{#if pageContent.learningOutcomes.includes(3)}
+									<div class="tooltip" id="LO3">
+										Future-Oriented Organisation,
+										<span class="tooltiptext"
+											>You explore the organisational context of your project, make business,
+											sustainable and ethical considerations and manage all aspects of the execution
+											of the project.
+										</span>
+									</div>
+									&nbsp
+								{/if}
+								{#if pageContent.learningOutcomes.includes(4)}
+									<div class="tooltip" id="LO4">
+										Investigative Problem Solving,
+										<span class="tooltiptext"
+											>You take a critical look at your project from different perspectives,
+											identify problems, find an effective approach for solving them and arrive at
+											appropriate solutions.
+										</span>
+									</div>
+									&nbsp
+								{/if}
+								{#if pageContent.learningOutcomes.includes(5)}
+									<div class="tooltip" id="LO5">
+										Personal Leadership,
+										<span class="tooltiptext"
+											>You show an entrepreneurial attitude in both your project and personal
+											development, you pay attention to your own learning ability and keep in mind
+											what kind of IT professional and/or what type of positions you aspire to.
+										</span>
+									</div>
+									&nbsp
+								{/if}
+								{#if pageContent.learningOutcomes.includes(6)}
+									<div class="tooltip" id="LO6">
+										Targeted Interaction,
+										<span class="tooltiptext"
+											>You determine which partners play a role in your project, collaborate
+											constructively with them and communicate appropriately to achieve the desired
+											impact.
+										</span>
+									</div>
+									&nbsp
+								{/if}
+							</div>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<div class="contentBlockRight">
 				<h2 class="summaryTitle">Summary</h2>
-				<div class="summary">{@html data[deliverable].summary}</div>
+				<div class="summary">{@html pageContent.summary}</div>
 			</div>
 		</div>
 	</div>
@@ -161,10 +245,52 @@
 		font-family: 'Comfortaa';
 		padding-bottom: 2rem;
 	}
+	.learningOutcomes {
+		max-width: 80%;
+	}
+	.learningOutcomesModifier {
+		align-items: start;
+	}
 	.summary {
 		font-family: 'Montserrat';
 		line-height: 24px;
 		font-size: 18px;
+	}
+
+	.tooltip {
+		padding-top: 10px;
+		position: relative;
+		display: inline-block;
+		border-bottom: 1px solid black;
+	}
+
+	.tooltip .tooltiptext {
+		visibility: hidden;
+		background-color: black;
+		z-index: 1;
+		color: #fff;
+		text-align: center;
+		border-radius: 6px;
+		padding: 5px;
+		position: absolute;
+		top: 150%;
+		left: 50%;
+		margin-left: -60px;
+	}
+
+	.tooltip .tooltiptext::after {
+		content: '';
+		position: absolute;
+		bottom: 100%;
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: transparent transparent black transparent;
+	}
+
+	.tooltip:hover .tooltiptext {
+		visibility: visible;
 	}
 
 	@media only screen and (max-width: 1200px) {

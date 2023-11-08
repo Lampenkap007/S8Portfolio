@@ -22,5 +22,6 @@
 		align-items: center;
 		padding-left: -3rem;
 		transition: all 0.2s ease-in-out;
+		z-index: 99;
 	}
 </style>

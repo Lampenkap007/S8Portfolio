@@ -24,7 +24,8 @@
 		"documentUrl": "https://docs.google.com/document/d/1Nwsh0zmCA8MmwlRhelnxVwMvQLGoVpiMI8Gd5Q1HLuw/edit?usp=sharing",
 		"date": "05-09-2023",
 		"research": "Library Research",
-		"phase": "Orientation and Concepting"
+		"phase": "Orientation and Concepting",
+		"learningOutcomes": [1, 2, 6]
 	},
 	"availabledataanalysis": {
 		"name": "Available Data Analysis",
