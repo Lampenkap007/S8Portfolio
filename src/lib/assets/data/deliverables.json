@@ -6,7 +6,8 @@
 		"documentUrl": "https://docs.google.com/document/d/14vrlimfjDGoUlEJZRyYKMt837b_YfnJ_tFa06_uXLDg/edit?usp=sharing",
 		"date": "04-09-2023",
 		"research": "Deskresearch",
-		"phase": "Preperations"
+		"phase": "Preperations",
+		"learningOutcomes": [1, 2, 4, 5, 6]
 	},
 	"notion": {
 		"name": "Notion",
@@ -15,7 +16,8 @@
 		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
 		"date": "Not applicable",
 		"research": "Not applicable",
-		"phase": "Entire project"
+		"phase": "Entire project",
+		"learningOutcomes": [1, 2, 5]
 	},
 	"availableproductanalysis": {
 		"name": "Available Product Analysis",
@@ -25,7 +27,7 @@
 		"date": "05-09-2023",
 		"research": "Library Research",
 		"phase": "Orientation and Concepting",
-		"learningOutcomes": [1, 2, 6]
+		"learningOutcomes": [1, 2, 4]
 	},
 	"availabledataanalysis": {
 		"name": "Available Data Analysis",
@@ -34,7 +36,8 @@
 		"documentUrl": "https://docs.google.com/document/d/1RdJ-HJGdh8pljJCTHmVwz5RTRG9IG7DuPhvGCP4Rxrw/edit?usp=sharing",
 		"date": "18-09-2023",
 		"research": "Library Research",
-		"phase": "Orientation and Concepting"
+		"phase": "Orientation and Concepting",
+		"learningOutcomes": [1, 2, 4]
 	},
 	"fanengagementstrategies": {
 		"name": "Fan Engagement Strategies",
@@ -43,7 +46,8 @@
 		"documentUrl": "https://docs.google.com/document/d/1W-NzbCbUIzgo9ZKQvKMegBAlIOj03Av7L932cknQ2ec/edit?usp=sharing",
 		"date": "18-09-2023",
 		"research": "Library Research",
-		"phase": "Orientation and Concepting"
+		"phase": "Orientation and Concepting",
+		"learningOutcomes": [1, 2, 4]
 	},
 	"availalbetechnologiesanalysis": {
 		"name": "Available Technologies Analysis",
@@ -52,7 +56,8 @@
 		"documentUrl": "https://docs.google.com/document/d/1sS0wi5vEQY9FZUw1GvNjbl8w6A75Dsrg3gICDaD33IU/edit?usp=sharing",
 		"date": "08-09-2023",
 		"research": "Library Research",
-		"phase": "Orientation and Concepting"
+		"phase": "Orientation and Concepting",
+		"learningOutcomes": [1, 2, 4]
 	},
 	"onlinesurvey": {
 		"name": "Online Survey",
@@ -61,7 +66,8 @@
 		"documentUrl": "https://docs.google.com/document/d/1sQPTd4AKi0mAlvhJC4RewRhu6ZAmvQ0Nxg_iAeNZlqI/edit?usp=sharing",
 		"date": "25-09-2023",
 		"research": "Field Research",
-		"phase": "Orientation and Concepting"
+		"phase": "Orientation and Concepting",
+		"learningOutcomes": [1, 2, 4]
 	},
 	"targetaudienceanalysis": {
 		"name": "Target Audience Analysis",
@@ -70,7 +76,8 @@
 		"documentUrl": "https://docs.google.com/document/d/14PeIeQcrhOACbNm3CaA-IeQcVOfDhON0ACb4aLf95cE/edit?usp=sharing",
 		"date": "27-09-2023",
 		"research": "Lab Research",
-		"phase": "Orientation and Concepting"
+		"phase": "Orientation and Concepting",
+		"learningOutcomes": [1, 2, 4]
 	},
 	"usercentereddesignanalysis": {
 		"name": "User-Centered Design Analysis",
@@ -79,7 +86,8 @@
 		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
 		"date": "Not applicable",
 		"research": "Not applicable",
-		"phase": "Entire project"
+		"phase": "Entire project",
+		"learningOutcomes": [0]
 	},
 	"focusgroupdiscussion": {
 		"name": "Focusgroup Discussion",
@@ -88,7 +96,8 @@
 		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
 		"date": "Not applicable",
 		"research": "Not applicable",
-		"phase": "Entire project"
+		"phase": "Entire project",
+		"learningOutcomes": [1, 2, 3, 4, 5, 6]
 	},
 	"feasibilitystudy": {
 		"name": "Feasibility Study",
@@ -97,6 +106,7 @@
 		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
 		"date": "Not applicable",
 		"research": "Not applicable",
-		"phase": "Entire project"
+		"phase": "Entire project",
+		"learningOutcomes": [1, 2, 3, 4]
 	}
 }
