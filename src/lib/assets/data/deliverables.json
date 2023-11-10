@@ -7,7 +7,12 @@
 		"date": "04-09-2023",
 		"research": "Deskresearch",
 		"phase": "Preperations",
-		"learningOutcomes": [1, 2, 4, 5, 6]
+		"learningOutcomes": [1, 2, 4, 5, 6],
+		"LearningOutcomeClarification": "Lorem ipsum dolor sit amet consectetur adipiscing elit erat, auctor integer torquent placerat venenatis malesuada pulvinar, fames hac semper tellus habitant mollis eleifend. Nulla sodales at molestie proin himenaeos nec odio cursus ultrices tortor primis, varius posuere quam phasellus aliquam tempus magnis diam eleifend. Himenaeos dapibus dui malesuada hac primis volutpat aptent donec nisi potenti, magnis duis accumsan lacinia blandit fames mauris nostra sodales velit, mus a sociosqu tempus nibh leo porta condimentum urna.",
+		"IctReasearchMethod": {
+			"Label": "Available product analysis",
+			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
+		}
 	},
 	"notion": {
 		"name": "Notion",
@@ -17,7 +22,12 @@
 		"date": "Not applicable",
 		"research": "Not applicable",
 		"phase": "Entire project",
-		"learningOutcomes": [1, 2, 5]
+		"learningOutcomes": [1, 2, 5],
+		"LearningOutcomeClarification": "Lorem ipsum dolor sit amet consectetur adipiscing elit erat, auctor integer torquent placerat venenatis malesuada pulvinar, fames hac semper tellus habitant mollis eleifend. Nulla sodales at molestie proin himenaeos nec odio cursus ultrices tortor primis, varius posuere quam phasellus aliquam tempus magnis diam eleifend. Himenaeos dapibus dui malesuada hac primis volutpat aptent donec nisi potenti, magnis duis accumsan lacinia blandit fames mauris nostra sodales velit, mus a sociosqu tempus nibh leo porta condimentum urna.",
+		"IctReasearchMethod": {
+			"Label": "Available product analysis",
+			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
+		}
 	},
 	"availableproductanalysis": {
 		"name": "Available Product Analysis",
@@ -27,7 +37,12 @@
 		"date": "05-09-2023",
 		"research": "Library Research",
 		"phase": "Orientation and Concepting",
-		"learningOutcomes": [1, 2, 4]
+		"learningOutcomes": [1, 2, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activity of Analysis as I analysed for interesting existing products. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"IctReasearchMethod": {
+			"Label": "Available product analysis",
+			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
+		}
 	},
 	"availabledataanalysis": {
 		"name": "Available Data Analysis",
@@ -37,7 +52,12 @@
 		"date": "18-09-2023",
 		"research": "Library Research",
 		"phase": "Orientation and Concepting",
-		"learningOutcomes": [1, 2, 4]
+		"learningOutcomes": [1, 2, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activities of Analysis and Advise as I analysed for available data sources and advised on the use of these data sources in the project. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase. I also identified problems with the data sources found and used the results from this research as an input for the focusgroup discussion. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"IctReasearchMethod": {
+			"Label": "Data analytics",
+			"Url": "https://ictresearchmethods.nl/lab/data-analytics/"
+		}
 	},
 	"fanengagementstrategies": {
 		"name": "Fan Engagement Strategies",
@@ -47,7 +67,12 @@
 		"date": "18-09-2023",
 		"research": "Library Research",
 		"phase": "Orientation and Concepting",
-		"learningOutcomes": [1, 2, 4]
+		"learningOutcomes": [1, 2, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activities of Analysis and Advise as I analysed the concept of fan engagement strategies and advised on the use of fan engagement strategies in the project. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> I discovered that the use of fan engagement strategies is an opportunity for the client. This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase.  I evaluated my findings by presenting them during the focusgroup discussion and asked for feedback on my research. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"IctReasearchMethod": {
+			"Label": "Literature study",
+			"Url": "https://ictresearchmethods.nl/library/literature-study/"
+		}
 	},
 	"availalbetechnologiesanalysis": {
 		"name": "Available Technologies Analysis",
@@ -57,7 +82,12 @@
 		"date": "08-09-2023",
 		"research": "Library Research",
 		"phase": "Orientation and Concepting",
-		"learningOutcomes": [1, 2, 4]
+		"learningOutcomes": [1, 2, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activities of Analysis and Advise as I analysed for technologies useful for my project and advised on the use of the found technologies. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase.  I evaluated my findings by presenting them during the focusgroup discussion and asked for feedback on my research. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"IctReasearchMethod": {
+			"Label": "Literature study",
+			"Url": "https://ictresearchmethods.nl/library/literature-study/"
+		}
 	},
 	"onlinesurvey": {
 		"name": "Online Survey",
@@ -67,7 +97,12 @@
 		"date": "25-09-2023",
 		"research": "Field Research",
 		"phase": "Orientation and Concepting",
-		"learningOutcomes": [1, 2, 4]
+		"learningOutcomes": [1, 2, 4, 6],
+		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activities of Analysis and Advise as I analysed the interests and values of the target audience and advised on how these interests and values are important for the concept . This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. I used the results from this research as an input for the focusgroup discussion. Therefore, Learning Outcome 4: Investigative Problem Solving applies. <br><br> This survey was sent to colleagues and Formula 1 enthusiasts, so I communicated appropriately to make sure the survey would be completed by the right audience. Therefore, Learning Outcome 6: Targeted Interaction applies.",
+		"IctReasearchMethod": {
+			"Label": "Survey",
+			"Url": "https://ictresearchmethods.nl/field/survey/"
+		}
 	},
 	"targetaudienceanalysis": {
 		"name": "Target Audience Analysis",
@@ -77,36 +112,26 @@
 		"date": "27-09-2023",
 		"research": "Lab Research",
 		"phase": "Orientation and Concepting",
-		"learningOutcomes": [1, 2, 4]
-	},
-	"usercentereddesignanalysis": {
-		"name": "User-Centered Design Analysis",
-		"summary": "Work in progress",
-		"imageUrl": "/img/home-hero.png",
-		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
-		"date": "Not applicable",
-		"research": "Not applicable",
-		"phase": "Entire project",
-		"learningOutcomes": [0]
+		"learningOutcomes": [1, 2, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activities of Analysis and Advise as I analysed the analytics of RN365 and advised on findings that could have an impact on the project. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way and adapted to the processes and way of thinking of TDE, as TDE uses Google Analytics for analysis on their digital products. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase. I used the results from this research as an input for the focusgroup discussion. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"IctReasearchMethod": {
+			"Label": "Data analytics",
+			"Url": "https://ictresearchmethods.nl/lab/data-analytics/"
+		}
 	},
 	"focusgroupdiscussion": {
 		"name": "Focusgroup Discussion",
-		"summary": "Work in progress",
-		"imageUrl": "/img/home-hero.png",
-		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
-		"date": "Not applicable",
-		"research": "Not applicable",
-		"phase": "Entire project",
-		"learningOutcomes": [1, 2, 3, 4, 5, 6]
-	},
-	"feasibilitystudy": {
-		"name": "Feasibility Study",
-		"summary": "Work in progress",
-		"imageUrl": "/img/home-hero.png",
-		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
-		"date": "Not applicable",
-		"research": "Not applicable",
-		"phase": "Entire project",
-		"learningOutcomes": [1, 2, 3, 4]
+		"summary": "Monday October 9th, a focusgroup discussion is planned to come up with ideas for the project. Me, together with a few colleagues and Ruud from RacingNews365 are joining this session. For this meeting an hour is reserved in everyone's calendar. In this document you'll read about my preparations and approach for this event and what the results are that came out of the meeting. <br><br> Thanks to the focusgroup, I now have a general idea of what the end product will look like. The general conversation shaped the idea the most compared to the brainstorm method. This doesn't mean that the brainstorm method was useless. This can be a great input for the expert interview with strategy expert Michiel, where I'll discuss the other topics as well. <br><br> As for now, the idea looks like this: users need a good overview of a race. If a user misses two laps of a race, and the entire driver standing changed, the user wants to know what happened. We want to solve this by making a timeline that automatically logs events like overtakes, safety cars etc. It's possible to filter by driver to personalize the timeline and keep it uncluttered. Each event has its own replay button that visualizes an overtake in 3D for example. This automated timeline can easily be integrated with the liveblog of RN365. This can be done in two ways; Liveblog items written by the RN365 editorial could be included in the timeline, but automated events can also play a role in the RN365 liveblog as a semi automated function that fills the liveblog.",
+		"imageUrl": "/img/pexels-fauxels-3183183.jpg",
+		"documentUrl": "https://docs.google.com/document/d/1lskWLjGzf1BScHdkpHAlmjouDJ852ZLqUhnAk5XXh8I/edit?usp=sharing",
+		"date": "6-10-2023",
+		"research": "Field Research",
+		"phase": "Orientation and Concepting",
+		"learningOutcomes": [1, 2, 3, 4, 5, 6],
+		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activities of Analysis Advise and Realise as a focus group applies for the analysis phase of the project. The results of the focus group formed an advice for the concept and the brainstorm session in the focus group discussion realised an idea to develop into a concept. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the concepting phase of the project. I also worked in a methodological and structured way and adapted to the processes and way of thinking of TDE, as I explained that TDE doesn’t use brainstorming methods and prefers to just converse to find solutions. This also happened besides the brainstorm method during the discussion and this general conversation gave more shape to the idea than the brainstorm method. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> During the formation of the idea, we took sustainable development into account. We agreed not to use the Ergast API, as it would result in a product that’s not sustainable because Ergast will shut down next year. Also, we took business into consideration. As the tool will be part of RN365’s premium subscription model. Therefore,  Learning Outcome 3: Future-Oriented Organisation applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to come up with an idea to further develop into a concept. The idea that resulted from the focus group discussion was validated by strategy expert Michiel and the entire concept was later validated by stakeholder Ruud. Therefore, Learning Outcome 4: Investigative Problem Solving applies. <br><br> I acknowledged that the time for this focus group would be really valuable and to make sure that I got what I needed, I took the lead in this meeting and gave structure by making sure everyone knew the objective, and explained that in the end, I would need an idea to further develop into a concept. Therefore, Learning Outcome 5: Personal Leadership applies <br><br> This meeting was attended by several partners that have a role in my project. I communicated appropriately to make sure the focus group had the right impact and execution. Therefore, Learning Outcome 6: Targeted Interaction applies.",
+		"IctReasearchMethod": {
+			"Label": "Focus group",
+			"Url": "https://ictresearchmethods.nl/field/focus-group/"
+		}
 	}
 }

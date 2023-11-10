@@ -61,6 +61,31 @@
 						</li>
 						<li class="deliverableDetailListItem">
 							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="#000"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								class="icon feather feather-search"
+								><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg
+							>
+							{#if pageContent.IctReasearchMethod.Url != false}
+								<a
+									class="IctReasearchMethod"
+									target="_blank"
+									href={pageContent.IctReasearchMethod.Url}
+									>{pageContent.IctReasearchMethod.Label}</a
+								>
+							{:else}
+								<p>Not applicable</p>
+							{/if}
+						</li>
+						<li class="deliverableDetailListItem">
+							<svg
 								class="icon"
 								xmlns="http://www.w3.org/2000/svg"
 								height="24"
@@ -72,91 +97,74 @@
 							>
 							{pageContent.phase}
 						</li>
-						<li class="deliverableDetailListItem learningOutcomesModifier">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								viewBox="0 0 24 24"
-								fill="none"
-								stroke="#000"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								class="icon feather feather-award"
-								><circle cx="12" cy="8" r="7" /><polyline
-									points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"
-								/></svg
-							>
-							<div class="learningOutcomes">
-								{#if pageContent.learningOutcomes.includes(1)}
-									<div class="tooltip" id="LO1">
-										Professional Duties,
-										<span class="tooltiptext"
-											>You carry out the professional duties on a bachelor level resulting in
-											professional products in line with the IT-area you are working in.
-										</span>
-									</div>
-									&nbsp
-								{/if}
-								{#if pageContent.learningOutcomes.includes(2)}
-									<div class="tooltip" id="LO2">
-										Situation-Orientation,
-										<span class="tooltiptext"
-											>You apply your previously acquired knowledge and skills in a new and
-											authentic context to deliver relevant and valuable results for the project and
-											company.
-										</span>
-									</div>
-									&nbsp
-								{/if}
-								{#if pageContent.learningOutcomes.includes(3)}
-									<div class="tooltip" id="LO3">
-										Future-Oriented Organisation,
-										<span class="tooltiptext"
-											>You explore the organisational context of your project, make business,
-											sustainable and ethical considerations and manage all aspects of the execution
-											of the project.
-										</span>
-									</div>
-									&nbsp
-								{/if}
-								{#if pageContent.learningOutcomes.includes(4)}
-									<div class="tooltip" id="LO4">
-										Investigative Problem Solving,
-										<span class="tooltiptext"
-											>You take a critical look at your project from different perspectives,
-											identify problems, find an effective approach for solving them and arrive at
-											appropriate solutions.
-										</span>
-									</div>
-									&nbsp
-								{/if}
-								{#if pageContent.learningOutcomes.includes(5)}
-									<div class="tooltip" id="LO5">
-										Personal Leadership,
-										<span class="tooltiptext"
-											>You show an entrepreneurial attitude in both your project and personal
-											development, you pay attention to your own learning ability and keep in mind
-											what kind of IT professional and/or what type of positions you aspire to.
-										</span>
-									</div>
-									&nbsp
-								{/if}
-								{#if pageContent.learningOutcomes.includes(6)}
-									<div class="tooltip" id="LO6">
-										Targeted Interaction,
-										<span class="tooltiptext"
-											>You determine which partners play a role in your project, collaborate
-											constructively with them and communicate appropriately to achieve the desired
-											impact.
-										</span>
-									</div>
-									&nbsp
-								{/if}
-							</div>
-						</li>
 					</ul>
+				</div>
+				<div class="learningOutcomeClarification">
+					<h2 class="summaryTitle">Learning Outcome Clarification</h2>
+
+					<ul class="LearningOutcomeList">
+						{#if pageContent.learningOutcomes.includes(1)}
+							<li class="tooltip">
+								Professional Duties
+								<span class="tooltiptext"
+									>You carry out the professional duties on a bachelor level resulting in
+									professional products in line with the IT-area you are working in.
+								</span>
+							</li>
+						{/if}
+						{#if pageContent.learningOutcomes.includes(2)}
+							<li class="tooltip">
+								Situation-Orientation
+								<span class="tooltiptext"
+									>You apply your previously acquired knowledge and skills in a new and authentic
+									context to deliver relevant and valuable results for the project and company.
+								</span>
+							</li>
+						{/if}
+						{#if pageContent.learningOutcomes.includes(3)}
+							<li class="tooltip">
+								Future-Oriented Organisation
+								<span class="tooltiptext"
+									>You explore the organisational context of your project, make business,
+									sustainable and ethical considerations and manage all aspects of the execution of
+									the project.
+								</span>
+							</li>
+						{/if}
+						{#if pageContent.learningOutcomes.includes(4)}
+							<li class="tooltip">
+								Investigative Problem Solving
+								<span class="tooltiptext"
+									>You take a critical look at your project from different perspectives, identify
+									problems, find an effective approach for solving them and arrive at appropriate
+									solutions.
+								</span>
+							</li>
+						{/if}
+						{#if pageContent.learningOutcomes.includes(5)}
+							<li class="tooltip">
+								Personal Leadership
+								<span class="tooltiptext"
+									>You show an entrepreneurial attitude in both your project and personal
+									development, you pay attention to your own learning ability and keep in mind what
+									kind of IT professional and/or what type of positions you aspire to.
+								</span>
+							</li>
+						{/if}
+						{#if pageContent.learningOutcomes.includes(6)}
+							<li class="tooltip">
+								Targeted Interaction
+								<span class="tooltiptext"
+									>You determine which partners play a role in your project, collaborate
+									constructively with them and communicate appropriately to achieve the desired
+									impact.
+								</span>
+							</li>
+						{/if}
+					</ul>
+					<p class="summary">
+						{@html pageContent.LearningOutcomeClarification}
+					</p>
 				</div>
 			</div>
 			<div class="contentBlockRight">
@@ -171,6 +179,16 @@
 	@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 	@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat&display=swap');
 
+	.learningOutcomeClarification {
+		padding: 2rem;
+	}
+	.IctReasearchMethod {
+		color: black;
+	}
+
+	.LearningOutcomeList {
+		padding-bottom: 2rem;
+	}
 	.contentPage {
 		width: 100%;
 		display: flex;
@@ -246,7 +264,6 @@
 		padding-bottom: 2rem;
 	}
 	.learningOutcomes {
-		max-width: 80%;
 	}
 	.learningOutcomesModifier {
 		align-items: start;
@@ -258,9 +275,9 @@
 	}
 
 	.tooltip {
-		padding-top: 10px;
+		padding-top: 15px;
 		position: relative;
-		display: inline-block;
+		width: fit-content;
 		border-bottom: 1px solid black;
 	}
 

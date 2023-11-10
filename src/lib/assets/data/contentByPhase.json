@@ -45,16 +45,8 @@
 				"url": "/deliverables/targetaudienceanalysis"
 			},
 			{
-				"label": "User-Centered Design Analysis",
-				"url": "/deliverables/usercentereddesignanalysis"
-			},
-			{
 				"label": "Focusgroup Discussion",
 				"url": "/deliverables/focusgroupdiscussion"
-			},
-			{
-				"label": "Feasibility Study",
-				"url": "/deliverables/feasibilitystudy"
 			}
 		]
 	},
@@ -103,6 +95,21 @@
 			{
 				"label": "item2",
 				"url": "/deliverables/deliverable1"
+			}
+		]
+	},
+	{
+		"title": "Presentations and Meetings",
+		"introduction": "Presentations and meetings are the core of communication during any project. Below is an overview of the meetings and presentations for this semester.",
+		"accentColor": "#A594F9",
+		"deliverables": [
+			{
+				"label": "item1",
+				"url": "/deliverables/"
+			},
+			{
+				"label": "item1",
+				"url": "/deliverables/"
 			}
 		]
 	}
