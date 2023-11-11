@@ -47,6 +47,10 @@
 			{
 				"label": "Focusgroup Discussion",
 				"url": "/deliverables/focusgroupdiscussion"
+			},
+			{
+				"label": "Concept Validation",
+				"url": "/deliverables/conceptvalidation"
 			}
 		]
 	},
