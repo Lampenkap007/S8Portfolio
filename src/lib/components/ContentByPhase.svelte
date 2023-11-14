@@ -41,7 +41,6 @@
 		height: fit-content;
 		gap: 2rem;
 		width: 65rem;
-		padding-top: 5rem;
 		padding-bottom: 5rem;
 	}
 	.card {

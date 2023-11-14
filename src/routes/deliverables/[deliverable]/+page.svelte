@@ -4,35 +4,41 @@
 	import data from '../../../lib/assets/data/deliverables.json';
 
 	const pageContent = data[$page.params.deliverable];
+	function goBack() {
+		window.history.back();
+	}
 </script>
 
-<Navbar />
+<!-- <Navbar /> -->
 <div class="contentPage">
 	<div class="contentBlock">
 		<div class="banner" style="background-image: url({pageContent.imageUrl});" />
-		<a class="documentLink" href="/"
-			><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
+		<button class="documentLink nobuttonstyle" on:click={goBack}>
+			<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
 				><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" /></svg
-			><span>Home</span></a
-		>
+			><span>Home</span>
+		</button>
 		<div class="contentBlockDevider">
 			<div class="contentBlockLeft">
 				<h1 class="contentTitle">{pageContent.name}</h1>
-				<a
-					class="documentLink"
-					href={pageContent.documentUrl}
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20"
-						><path
-							d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"
-						/></svg
-					>
-					<span>Document</span></a
-				>
+
 				<div class="deliverableDetails">
 					<ul class="deliverableDetailList">
+						<li class="deliverableDetailListItem">
+							<svg
+								class="icon"
+								xmlns="http://www.w3.org/2000/svg"
+								height="20"
+								viewBox="0 -960 960 960"
+								width="20"
+								><path
+									d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"
+								/></svg
+							>
+							<a href={pageContent.documentUrl} class="documentLink" target="_blank"
+								>Full documentation</a
+							>
+						</li>
 						<li class="deliverableDetailListItem">
 							<svg
 								class="icon"
@@ -99,14 +105,16 @@
 						</li>
 					</ul>
 				</div>
+			</div>
+			<div class="contentBlockRight">
+				<h2 class="summaryTitle">Summary</h2>
+				<div class="summary">{@html pageContent.summary}</div>
+				<h2 class="summaryTitle">Learning Outcome Clarification</h2>
 				<div class="learningOutcomeClarification">
-					<h2 class="summaryTitle">Learning Outcome Clarification</h2>
-
 					<ul class="LearningOutcomeList">
 						{#if pageContent.learningOutcomes.includes(1)}
 							<li class="tooltip">
-								Professional Duties
-								<span class="tooltiptext"
+								Learning Outcome 1: Professional Duties <span class="tooltiptext"
 									>You carry out the professional duties on a bachelor level resulting in
 									professional products in line with the IT-area you are working in.
 								</span>
@@ -114,7 +122,7 @@
 						{/if}
 						{#if pageContent.learningOutcomes.includes(2)}
 							<li class="tooltip">
-								Situation-Orientation
+								Learning Outcome 2: Situation-Orientation
 								<span class="tooltiptext"
 									>You apply your previously acquired knowledge and skills in a new and authentic
 									context to deliver relevant and valuable results for the project and company.
@@ -123,7 +131,7 @@
 						{/if}
 						{#if pageContent.learningOutcomes.includes(3)}
 							<li class="tooltip">
-								Future-Oriented Organisation
+								Learning Outcome 3: Future-Oriented Organisation
 								<span class="tooltiptext"
 									>You explore the organisational context of your project, make business,
 									sustainable and ethical considerations and manage all aspects of the execution of
@@ -133,7 +141,7 @@
 						{/if}
 						{#if pageContent.learningOutcomes.includes(4)}
 							<li class="tooltip">
-								Investigative Problem Solving
+								Learning Outcome 4: Investigative Problem Solving
 								<span class="tooltiptext"
 									>You take a critical look at your project from different perspectives, identify
 									problems, find an effective approach for solving them and arrive at appropriate
@@ -143,7 +151,7 @@
 						{/if}
 						{#if pageContent.learningOutcomes.includes(5)}
 							<li class="tooltip">
-								Personal Leadership
+								Learning Outcome 5: Personal Leadership
 								<span class="tooltiptext"
 									>You show an entrepreneurial attitude in both your project and personal
 									development, you pay attention to your own learning ability and keep in mind what
@@ -153,7 +161,7 @@
 						{/if}
 						{#if pageContent.learningOutcomes.includes(6)}
 							<li class="tooltip">
-								Targeted Interaction
+								Learning Outcome 6: Targeted Interaction
 								<span class="tooltiptext"
 									>You determine which partners play a role in your project, collaborate
 									constructively with them and communicate appropriately to achieve the desired
@@ -167,10 +175,6 @@
 					</p>
 				</div>
 			</div>
-			<div class="contentBlockRight">
-				<h2 class="summaryTitle">Summary</h2>
-				<div class="summary">{@html pageContent.summary}</div>
-			</div>
 		</div>
 	</div>
 </div>
@@ -179,8 +183,16 @@
 	@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
 	@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat&display=swap');
 
+	.nobuttonstyle {
+		background: none;
+		color: inherit;
+		border: none;
+		padding: 0;
+		font: inherit;
+		cursor: pointer;
+		outline: inherit;
+	}
 	.learningOutcomeClarification {
-		padding: 2rem;
 	}
 	.IctReasearchMethod {
 		color: black;
@@ -188,6 +200,10 @@
 
 	.LearningOutcomeList {
 		padding-bottom: 2rem;
+		padding-left: 1rem;
+		font-family: 'Montserrat';
+		line-height: 24px;
+		font-size: 18px;
 	}
 	.contentPage {
 		width: 100%;
@@ -226,7 +242,7 @@
 	}
 	.contentTitle {
 		font-size: 32px;
-		padding-bottom: 3rem;
+		padding-bottom: 2rem;
 	}
 	.documentLink {
 		color: black;
@@ -235,9 +251,10 @@
 		display: flex;
 		align-items: center;
 		gap: 5px;
+		text-decoration: underline;
+		cursor: pointer;
 	}
 	.deliverableDetails {
-		margin-top: 2rem;
 		border-radius: 20px;
 		padding: 8px;
 		background-color: #f2f2f2;
@@ -272,6 +289,7 @@
 		font-family: 'Montserrat';
 		line-height: 24px;
 		font-size: 18px;
+		padding-bottom: 2rem;
 	}
 
 	.tooltip {
