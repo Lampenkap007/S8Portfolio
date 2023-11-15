@@ -1,19 +1,11 @@
 <script>
-	import { onMount } from 'svelte';
+	import data from '../assets/data/deliverables.json';
 	import { page } from '$app/stores';
 
 	let currentIndex = 0;
-	let images = [];
 
-	console.log($page.params.deliverable);
 	const deliverable = $page.params.deliverable;
-
-	onMount(async () => {
-		const response = await fetch('../src/lib/assets/data/deliverables.json');
-		let deliverables = await response.json();
-		console.log(deliverables[deliverable].images);
-		images = deliverables[deliverable].images;
-	});
+	let images = data[deliverable].images;
 
 	function showNext() {
 		currentIndex = (currentIndex + 1) % images.length;
