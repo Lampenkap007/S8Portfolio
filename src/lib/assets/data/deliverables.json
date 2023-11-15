@@ -43,7 +43,7 @@
 			"Label": "Available product analysis",
 			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
 		},
-		"images": ["../img/pexels-hasan-albari-1424745.jpg", "../img/pexels-lukas-590022.jpg"]
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	},
 	"availabledataanalysis": {
 		"name": "Available Data Analysis",
