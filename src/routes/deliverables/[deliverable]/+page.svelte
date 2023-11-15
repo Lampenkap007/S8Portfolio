@@ -1,7 +1,8 @@
 <script>
 	import { page } from '$app/stores';
-	import Navbar from '$lib/components/Navbar.svelte';
+	// import Navbar from '$lib/components/Navbar.svelte';
 	import data from '../../../lib/assets/data/deliverables.json';
+	import ImageCarousel from '../../../lib/components/ImageCarousel.svelte';
 
 	const pageContent = data[$page.params.deliverable];
 	function goBack() {
@@ -20,8 +21,6 @@
 		</button>
 		<div class="contentBlockDevider">
 			<div class="contentBlockLeft">
-				<h1 class="contentTitle">{pageContent.name}</h1>
-
 				<div class="deliverableDetails">
 					<ul class="deliverableDetailList">
 						<li class="deliverableDetailListItem">
@@ -105,8 +104,11 @@
 						</li>
 					</ul>
 				</div>
+				<ImageCarousel />
 			</div>
 			<div class="contentBlockRight">
+				<h1 class="contentTitle">{pageContent.name}</h1>
+
 				<h2 class="summaryTitle">Summary</h2>
 				<div class="summary">{@html pageContent.summary}</div>
 				<h2 class="summaryTitle">Learning Outcome Clarification</h2>
@@ -243,6 +245,7 @@
 	.contentTitle {
 		font-size: 32px;
 		padding-bottom: 2rem;
+		font-family: 'Comfortaa';
 	}
 	.documentLink {
 		color: black;
