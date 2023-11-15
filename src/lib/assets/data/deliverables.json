@@ -12,7 +12,8 @@
 		"IctReasearchMethod": {
 			"Label": "Available product analysis",
 			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
-		}
+		},
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	},
 	"notion": {
 		"name": "Notion",
@@ -27,7 +28,8 @@
 		"IctReasearchMethod": {
 			"Label": "Available product analysis",
 			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
-		}
+		},
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	},
 	"availableproductanalysis": {
 		"name": "Available Product Analysis",
@@ -58,7 +60,8 @@
 		"IctReasearchMethod": {
 			"Label": "Data analytics",
 			"Url": "https://ictresearchmethods.nl/lab/data-analytics/"
-		}
+		},
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	},
 	"fanengagementstrategies": {
 		"name": "Fan Engagement Strategies",
@@ -73,7 +76,8 @@
 		"IctReasearchMethod": {
 			"Label": "Literature study",
 			"Url": "https://ictresearchmethods.nl/library/literature-study/"
-		}
+		},
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	},
 	"availalbetechnologiesanalysis": {
 		"name": "Available Technologies Analysis",
@@ -88,7 +92,8 @@
 		"IctReasearchMethod": {
 			"Label": "Literature study",
 			"Url": "https://ictresearchmethods.nl/library/literature-study/"
-		}
+		},
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	},
 	"onlinesurvey": {
 		"name": "Online Survey",
@@ -103,7 +108,8 @@
 		"IctReasearchMethod": {
 			"Label": "Survey",
 			"Url": "https://ictresearchmethods.nl/field/survey/"
-		}
+		},
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	},
 	"targetaudienceanalysis": {
 		"name": "Target Audience Analysis",
@@ -118,7 +124,8 @@
 		"IctReasearchMethod": {
 			"Label": "Data analytics",
 			"Url": "https://ictresearchmethods.nl/lab/data-analytics/"
-		}
+		},
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	},
 	"focusgroupdiscussion": {
 		"name": "Focusgroup Discussion",
@@ -133,7 +140,8 @@
 		"IctReasearchMethod": {
 			"Label": "Focus group",
 			"Url": "https://ictresearchmethods.nl/field/focus-group/"
-		}
+		},
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	},
 	"conceptvalidation": {
 		"name": "Concept Validation",
@@ -148,6 +156,7 @@
 		"IctReasearchMethod": {
 			"Label": "Interview",
 			"Url": "https://ictresearchmethods.nl/field/interview/"
-		}
+		},
+		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
 	}
 }
