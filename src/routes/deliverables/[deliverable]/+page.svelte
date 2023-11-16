@@ -13,7 +13,11 @@
 <!-- <Navbar /> -->
 <div class="contentPage">
 	<div class="contentBlock">
-		<div class="banner" style="background-image: url({pageContent.imageUrl});" />
+		<div class="banner" style="background-image: url({pageContent.imageUrl});">
+			<span class="imageCaption">
+				{'An image about "' + pageContent.name + '" according to artificial intelligence (DALL-E)'}
+			</span>
+		</div>
 		<button class="documentLink nobuttonstyle" on:click={goBack}>
 			<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
 				><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" /></svg
@@ -200,6 +204,14 @@
 		color: black;
 	}
 
+	.imageCaption {
+		padding: 5px;
+		background-color: white;
+		border-radius: 5px;
+		margin: 0.5rem;
+		box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.2);
+	}
+
 	.LearningOutcomeList {
 		padding-bottom: 2rem;
 		padding-left: 1rem;
@@ -227,7 +239,11 @@
 		background-size: cover;
 		background-position: center;
 		border-radius: 20px;
+		font-family: 'Montserrat';
 		margin-bottom: 1rem;
+		display: flex;
+		align-items: end;
+		justify-content: center;
 	}
 	.contentBlockDevider {
 		display: flex;

@@ -47,8 +47,6 @@
 			></button
 		>
 		<img class="carouselImg" src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
-	{:else}
-		<p>Loading images...</p>
 	{/if}
 </div>
 

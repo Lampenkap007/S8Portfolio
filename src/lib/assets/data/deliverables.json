@@ -2,7 +2,7 @@
 	"projectplan": {
 		"name": "Project Plan",
 		"summary": "The project plan outlines the general setup of this project and can be seen as a roadmap that includes all necessary information like project assignment, organisation, scope, planning, practices, approach to research and deliverables. The project plan is eventually used to get approval to start the internship.",
-		"imageUrl": "/img/pexels-bich-tran-669986.jpg",
+		"imageUrl": "/img/projectplan.png",
 		"documentUrl": "https://docs.google.com/document/d/14vrlimfjDGoUlEJZRyYKMt837b_YfnJ_tFa06_uXLDg/edit?usp=sharing",
 		"date": "04-09-2023",
 		"research": "Deskresearch",
@@ -13,7 +13,7 @@
 			"Label": "Available product analysis",
 			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
 		},
-		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
+		"images": []
 	},
 	"notion": {
 		"name": "Notion",
