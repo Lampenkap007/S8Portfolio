@@ -1,83 +1,122 @@
 {
 	"projectplan": {
 		"name": "Project Plan",
-		"summary": "The project plan outlines the general setup of this project and can be seen as a roadmap that includes all necessary information like project assignment, organisation, scope, planning, practices, approach to research and deliverables. The project plan is eventually used to get approval to start the internship.",
+		"summary": "The project plan outlines the general setup of this project and can be seen as a roadmap that includes all necessary information like project assignment, organisation, scope, planning, practices, approach to research and deliverables. The project plan is eventually used to get approval to start the internship. <br><br> The information in this project plan is based on the assignment description I received from TDE. However, the essential goal and problem statement weren’t yet specified. Therefore, I conducted an additional interview with stakeholder Ruud, my company coach John and client lead Joep from TDE.",
 		"imageUrl": "/img/projectplan.png",
 		"documentUrl": "https://docs.google.com/document/d/14vrlimfjDGoUlEJZRyYKMt837b_YfnJ_tFa06_uXLDg/edit?usp=sharing",
 		"date": "04-09-2023",
 		"research": "Deskresearch",
 		"phase": "Preperations",
-		"learningOutcomes": [1, 2, 4, 5, 6],
-		"LearningOutcomeClarification": "Lorem ipsum dolor sit amet consectetur adipiscing elit erat, auctor integer torquent placerat venenatis malesuada pulvinar, fames hac semper tellus habitant mollis eleifend. Nulla sodales at molestie proin himenaeos nec odio cursus ultrices tortor primis, varius posuere quam phasellus aliquam tempus magnis diam eleifend. Himenaeos dapibus dui malesuada hac primis volutpat aptent donec nisi potenti, magnis duis accumsan lacinia blandit fames mauris nostra sodales velit, mus a sociosqu tempus nibh leo porta condimentum urna.",
+		"learningOutcomes": [1, 2, 3, 4, 5, 6],
+		"LearningOutcomeClarification": "For this deliverable I conducted professional duties on a bachelor level in the activity of analysis as I analyzed the project’s goal and problem statement that resulted in this project plan, which is a professional product in line with IT-area user interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This project plan is relevant and valuable as it’s relevant to myself as it’s valuable to my internship assignment. I also worked in a methodological and structured way in a context where approach and solution area are open. I also worked with multiple stakeholders to create this project plan. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> For the project plan, I explored the organizational context of my project as I identified the business domain and stakeholders for the project. In this project plan, I included research activities time, money, risks and the quality of the solution which is valuable for the organization. Therefore, Learning Outcome 3: Future-Oriented Organization applies. <br><br> In the project plan, I identified problems and opportunities for the client and defined the main scope for the project and formulated related research questions. I also used the interview method to identify the project’s goal and problem statement. Therefore, Learning Outcome 4: Investigative Problem Solving applies. <br><br> In the project plan, I took the lead in my own project planning wise as well as content wise as I made a rough planning for the project and described the content / deliverables of the project. Therefore, Learning Outcome 5: Personal Leadership applies. <br><br> In the project plan, I determined which partners play a role in the project and collaborated with them by doing an interview with the stakeholder to get to know the project’s goal and problem statement, so I communicated appropriately to achieve the desired impact. Therefore, Learning Outcome 6: Targeted Interaction applies.",
 		"IctReasearchMethod": {
-			"Label": "Available product analysis",
-			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
+			"Label": "",
+			"Url": false
 		},
-		"images": []
+		"images": [
+			{
+				"Url": "/img/rn365-placeholder.png",
+				"Caption": "RN365"
+			},
+			{
+				"Url": "/img/RuudDimmers.jpeg",
+				"Caption": "Ruud Dimmers - CEO RN365"
+			},
+			{
+				"Url": "/img/TDETeam.png",
+				"Caption": "Myself, Company Coach John and Client Lead Joep"
+			}
+		]
 	},
-	"notion": {
-		"name": "Notion",
-		"summary": "This semester, I used Notion to manage and overview my project and other study related tasks. This is the first time I'm using this tool and I can say that I'm positively surprised about it. I've never kept track of my tasks and deliverables this well in any other semester. This Notion contains scrum boards, notes, links to presentations and deliverables and more and will in the end provide a complete overview of the entire semester.",
-		"imageUrl": "/img/home-hero.png",
-		"documentUrl": "https://www.notion.so/Improving-the-F1-Experience-at-Home-0f6f07b54f8d4113a49e8797315e637b?pvs=4",
+	"projectmanagement": {
+		"name": "Project Management",
+		"summary": "This semester, I used Notion to manage and overview my project and other study related tasks. This is the first time I'm using this tool and I can say that I'm positively surprised about it. I've never kept track of my tasks and deliverables this well in any other semester. This Notion contains scrum boards, notes, links to presentations and deliverables and more and will in the end provide a complete overview of the entire semester.<br><br>Now I’ve discovered the possibilities with Notion, I can manage my project and my semester really well. I’ll continue to use Notion throughout the semester and also use it as a scrum board for the realization phase of my project. This is when I’ll create a backlog with all the parts to realize for my tool and build these parts in an agile way.",
+		"imageUrl": "/img/projectmanagement.png",
+		"documentUrl": "https://docs.google.com/document/d/1OY3K3e88vu-Tj3cAJa1b1HjgP2O_DJaqmf9vkCDpQKM/edit?usp=sharing",
 		"date": "Not applicable",
 		"research": "Not applicable",
 		"phase": "Entire project",
 		"learningOutcomes": [1, 2, 5],
-		"LearningOutcomeClarification": "Lorem ipsum dolor sit amet consectetur adipiscing elit erat, auctor integer torquent placerat venenatis malesuada pulvinar, fames hac semper tellus habitant mollis eleifend. Nulla sodales at molestie proin himenaeos nec odio cursus ultrices tortor primis, varius posuere quam phasellus aliquam tempus magnis diam eleifend. Himenaeos dapibus dui malesuada hac primis volutpat aptent donec nisi potenti, magnis duis accumsan lacinia blandit fames mauris nostra sodales velit, mus a sociosqu tempus nibh leo porta condimentum urna.",
+		"LearningOutcomeClarification": "For this deliverable I conducted professional duties on a bachelor level in the activity of manage and control as I used a project management tool and the scrum methodology to manage my project and semester. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> Because I used a project management tool and the scrum methodology, I worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> Because I used a project management tool for my planning and content, I took the lead in my own project. Therefore, Learning Outcome 5: Personal Leadership applies.",
 		"IctReasearchMethod": {
 			"Label": "Available product analysis",
-			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
+			"Url": false
 		},
-		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
+		"images": [
+			{
+				"Url": "/img/notion-edited.webp",
+				"Caption": "Notion"
+			}
+		]
 	},
 	"availableproductanalysis": {
 		"name": "Available Product Analysis",
-		"summary": "An available product analysis can be conducted to assess the competitive landscape and existing products or services within a particular market. The goal of this research is to provide insights in similar products or services that already offer a solution to visualizing data with 3D elements, possibly with the intention to make a product more interesting for consumers. These insights can eventually be used as inspiration in the ideation phase of the Double Diamond. <br><br> Since it isn't yet specified what kind of product will eventually be realized, this research will focus on visualizing sports in 3D. <br><br> In this analysis are a few interesting products found. Digital Twins is a concept that can almost apply to anything and therefore also F1. By making a digital twin for an entire F1 race, or maybe just a part of it, like a pit stop for example, allows for detailed analysis by fans.<br><br> Unity Metacast is particularly interesting to use as an example of what the possibilities of digital twins can actually do. The technology cannot be copy-pasted to F1, because it relies on green screen technology. However, it's very useful for inspiration.<br><br> The videos from F1 addict are also a great example of what's possible with 3D and F1. The disadvantage of this concept is that it takes a lot of time to make these videos. This however also results in an interesting idea; Is it possible to automate this process using ThreeJS, and visualize a race in 3D?<br><br> F1TV Pro is probably the best example of an available product that already exists. It visualizes data by plotting the drivers position on a map of the circuit. However, this isn't in 3D. It's expected that making a 3D version of this, results in a more in depth analysis by F1 fans, which results in more engagement.<br><br> Finally, F1 Race Visualizer is an app that takes an approach in historical racing data. This app only displays race progression, however, there's much more data to be found in the Ergast API and this product doesn't have any 3D elements.<br><br>",
-		"imageUrl": "/img/pexels-lil-artsy-1314410.jpg",
+		"summary": "I conducted an available product analysis to find existing solutions on the problem statement for my project. These existing solutions can be used for inspiration in a later stage. I scalped the internet looking for interesting things that have anything to do with data visualization within sports. There are five products or concepts that I found that are interesting. <br><br> First, there’s a concept called digital twins. It is a broad term as it means that a digital twin is a digital version of something physical from the real world. However, it can also be applied to sports. I included this concept as I consider digital twins to be an interesting concept to apply in Formula 1. <br><br> Next, I found Unity’s Metacast. This is a variation of green screen technology, but with multiple cameras to create a 3D model of a moving object, MMA fighters in this example. Metacast provides a high-resolution model that allows for super detailed analysis of the sport. Of course, it’s not possible to wrap an entire Formula 1 track in green screen, but I included it as it might be interesting to use for parts of a race, like analyzing pitstops etc. <br><br> The videos of Formula Addict on YouTube are a great example of how 3D visualizations can be implemented in F1. This also allows for a more detailed analysis by fans. However, these videos are made after the event. I included this example because I am curious to see if it’s possible to automate this process or even present it live for the users. <br><br> F1TV Pro’s 2D visualization of track positions are a great example of data visualization within Formula 1. I included this example because I’m curious if a 3D variant of this product would add value for F1 fans. <br><br> At last, I included a little project called F1 Race Visualizer, this tool is built on the Ergast API that serves historical Formula 1 data. I included this tool as I found it interesting as it uses historical data instead of live-timing data, and I’m curious if historical data could also play a role in my project. <br><br> These five examples will be presented during the focus group discussion where we’re going to ideate the first idea’s as these examples will be a great source of inspiration during the brainstorming session.",
+		"imageUrl": "/img/availableproductanalysis.png",
 		"documentUrl": "https://docs.google.com/document/d/1Nwsh0zmCA8MmwlRhelnxVwMvQLGoVpiMI8Gd5Q1HLuw/edit?usp=sharing",
 		"date": "05-09-2023",
 		"research": "Library Research",
 		"phase": "Orientation and Concepting",
 		"learningOutcomes": [1, 2, 4],
-		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activity of Analysis as I analysed for interesting existing products. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activity of Analysis as I analyzed for interesting existing products to gain inspiration from for my project. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project and will provide an input for the focus group discussion later in the project. I also worked in a methodological and structured way as an available product analysis is a proven research methodology. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
 		"IctReasearchMethod": {
 			"Label": "Available product analysis",
 			"Url": "https://ictresearchmethods.nl/library/available-product-analysis/"
 		},
-		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
+		"images": [
+			{
+				"Url": "/img/unitymetacast.png",
+				"Caption": "Unity Metacast"
+			},
+			{
+				"Url": "/img/formulaaddict.png",
+				"Caption": "Formula Addict lap comparison - YouTube"
+			},
+			{
+				"Url": "/img/f1tvpro.png",
+				"Caption": "Current F1TV Pro data visualization"
+			},
+			{
+				"Url": "/img/f1racevisualizer.png",
+				"Caption": "F1 Race Visualizer build with Ergast API"
+			},
+			{
+				"Url": "/img/digitaltwin.png",
+				"Caption": "Google Maps AR makes a digital twin of the real world in your phone"
+			}
+		]
 	},
 	"availabledataanalysis": {
 		"name": "Available Data Analysis",
-		"summary": "One of this project's research questions asks what data is available from an F1 race. The answer for this question is required for the Double Diamond's ideation phase, where a solution for the problem statement will be defined. <br><br> This question will primarily be answered using library research. However, RacingNews already makes use of an API for Formula 1 data. This API is undocumented however, and not much can be found online about it. So information about this API will have to come from TDE itself.<br><br> Also, in this research, I'm also looking for data that could be interesting to visualize with ThreeJS. Think of GPS data of Formula 1 cars for example.<br><br> It seems like two types of data can be used for this project: live data and historical data. Further research will tell what data will eventually be used. However, it's good to know what data is available to get a better understanding of what's possible to build.<br><br> The three APIs found are all very interesting. Although Fast-F1 is the most reliable datasource, it isn't an option as it's unsuitable for web applications. The other two APIs will work fine with web apps, but the undocumented API is risky to use, and Ergast will shut down next year.<br><br> Both Ergast and the undocumented API don't provide any location data that can be used in ThreeJS. Further research will tell what data can be visualized using ThreeJS and how.",
-		"imageUrl": "/img/pexels-lukas-590022.jpg",
+		"summary": "One of this project's research questions asks what data is available from an F1 race. The answer for this question is required for the Double Diamond's ideation phase, where a solution for the problem statement will be defined. <br><br> This question will primarily be answered using library research. However, RacingNews already makes use of an API for Formula 1 data. This API is undocumented however, and not much can be found online about it. So information about this API will have to come from TDE itself.<br><br> Also, in this research, I'm also looking for data that could be interesting to visualize with ThreeJS. Think of GPS data of Formula 1 cars for example.<br><br> It seems like two types of data can be used for this project: live data and historical data. Further research will tell what data will eventually be used. However, it's good to know what data is available to get a better understanding of what's possible to build.<br><br> All three data sources found are interesting, although Fast-F1 is the most reliable data source, it cannot be used in the project, as it isn’t suitable for web applications. Ergast is unsuitable to use as well as it will probably shut down next year. This will result in an unsustainable product. The undocumented API is also risky to use as we don’t know what will happen with this data source in the future. However, this is the most promising data source for the project, as RN365 already uses this data source for their live timing data, and this data source also provides positioning data of Formula 1 cars.",
+		"imageUrl": "/img/availabledataanalysis.png",
 		"documentUrl": "https://docs.google.com/document/d/1RdJ-HJGdh8pljJCTHmVwz5RTRG9IG7DuPhvGCP4Rxrw/edit?usp=sharing",
 		"date": "18-09-2023",
 		"research": "Library Research",
 		"phase": "Orientation and Concepting",
-		"learningOutcomes": [1, 2, 4],
-		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activities of Analysis and Advise as I analysed for available data sources and advised on the use of these data sources in the project. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase. I also identified problems with the data sources found and used the results from this research as an input for the focusgroup discussion. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"learningOutcomes": [1, 2, 3, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activities of Analysis and Advise as I analyzed for available data sources and advised on the use of these data sources in the project. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project and the results will have an impact on the concept that’s being formed in the concepting phase. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> In my advice for the best data source to use, I took sustainable development into consideration, as one of the data sources found will result in an unsustainable product when used. I included this in my advice for the data source to use in my project. Therefore, Learning Outcome 3: Future-Oriented Organization applies. <br><br> This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find out what data sources are available for my project. I also identified problems with the data sources found and used the results from this research as an input for the focus group discussion. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
 		"IctReasearchMethod": {
 			"Label": "Data analytics",
 			"Url": "https://ictresearchmethods.nl/lab/data-analytics/"
 		},
-		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
+		"images": false
 	},
 	"fanengagementstrategies": {
 		"name": "Fan Engagement Strategies",
-		"summary": "During my search for 3D applications within sports, I found that this topic contracts with so-called fan engagement strategies. This topic falls in line with the general goal of this project, namely improving the F1 experience for viewers at home by creating more engagement. <br><br> According to BILUe, fan engagement in sports is an act of providing an end to end experience for a sports audience. This starts before a match, during a match and after a match. The ultimate goal is to have a more personal connection with the sport or brand. <br><br> This document provides a summary of a few findings that were found online. In the end it is concluded how this information can be useful for this project. <br><br> Fan engagement strategies are important to provide an end-to-end experience for sports fans. By providing content during a match but also on non-match days. RacingNews already offers content on non-match days, but this content isn't exclusive to RacingNews. Same counts for the live-timing data. It's also interesting to investigate if any kind of interactivity should be included in the project, this can be local with things like gamification, but also social with other people.",
-		"imageUrl": "/img/pexels-sk-814133.jpg",
+		"summary": "During my search for 3D applications within sports, I found that this topic contracts with so-called fan engagement strategies. This topic falls in line with the general goal of this project, namely improving the F1 experience for viewers at home by creating more engagement. <br><br> According to BILUe, fan engagement in sports is an act of providing an end-to-end experience for a sports audience. This starts before a match, during a match and after a match. The ultimate goal is to have a more personal connection with the sport or brand. <br><br> This document provides a summary of a few findings that were found online. In the end it is concluded how this information can be useful for this project. <br><br> It turns out that fan engagement strategies can elevate the engagement between sports and fans. What’s interesting to take from these strategies is that it’s important to look for things like uniqueness, interaction and more options for analysis, as these things result into more engagement with sports fans.",
+		"imageUrl": "/img/fanengagementstrategies.png",
 		"documentUrl": "https://docs.google.com/document/d/1W-NzbCbUIzgo9ZKQvKMegBAlIOj03Av7L932cknQ2ec/edit?usp=sharing",
 		"date": "18-09-2023",
 		"research": "Library Research",
 		"phase": "Orientation and Concepting",
 		"learningOutcomes": [1, 2, 4],
-		"LearningOutcomeClarification": "This deliverable is a professional product on a bachelor level in the activities of Analysis and Advise as I analysed the concept of fan engagement strategies and advised on the use of fan engagement strategies in the project. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> I discovered that the use of fan engagement strategies is an opportunity for the client. This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase.  I evaluated my findings by presenting them during the focusgroup discussion and asked for feedback on my research. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activities of Analysis and Advise as I analysed the concept of fan engagement strategies and advised on the use of fan engagement strategies in the project. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the orientation phase of the project. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> I discovered that the use of fan engagement strategies is an opportunity for the client. This deliverable is a research method on ictresearchmethods.nl. and it is an effective approach to find valuable insights for the orientation phase.  I evaluated my findings by presenting them during the focusgroup discussion and asked for feedback on my research. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
 		"IctReasearchMethod": {
 			"Label": "Literature study",
 			"Url": "https://ictresearchmethods.nl/library/literature-study/"
 		},
-		"images": ["/img/pexels-hasan-albari-1424745.jpg", "/img/pexels-lukas-590022.jpg"]
+		"images": false
 	},
 	"availalbetechnologiesanalysis": {
 		"name": "Available Technologies Analysis",

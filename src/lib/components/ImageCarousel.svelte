@@ -6,6 +6,7 @@
 
 	const deliverable = $page.params.deliverable;
 	let images = data[deliverable].images;
+	console.log(images);
 
 	function showNext() {
 		currentIndex = (currentIndex + 1) % images.length;
@@ -16,8 +17,8 @@
 	}
 </script>
 
-<div class="carousel">
-	{#if images.length > 0}
+{#if images.length > 0 && images != false}
+	<div class="carousel">
 		<button class="carouselButtonLeft carouselButton" on:click={showPrevious}>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -46,11 +47,17 @@
 				class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6" /></svg
 			></button
 		>
-		<img class="carouselImg" src={images[currentIndex]} alt={`Image ${currentIndex + 1}`} />
-	{/if}
-</div>
+		<img class="carouselImg" src={images[currentIndex].Url} alt={`Image ${currentIndex + 1}`} />
+	</div>
+	<div class="ImgCaption">{images[currentIndex].Caption}</div>
+{/if}
 
 <style>
+	.ImgCaption {
+		text-align: center;
+		width: 100%;
+		padding: 5px;
+	}
 	.carousel {
 		padding-top: 2rem;
 		position: relative;
