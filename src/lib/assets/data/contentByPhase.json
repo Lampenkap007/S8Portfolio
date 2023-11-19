@@ -49,6 +49,10 @@
 				"url": "/deliverables/focusgroupdiscussion"
 			},
 			{
+				"label": "Feasibility Study",
+				"url": "/deliverables/feasibilitystudy"
+			},
+			{
 				"label": "Concept Validation",
 				"url": "/deliverables/conceptvalidation"
 			}
