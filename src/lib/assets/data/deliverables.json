@@ -204,7 +204,7 @@
 		"research": "Lab Research",
 		"phase": "Orientation and Concepting",
 		"learningOutcomes": [1, 2, 3, 4],
-		"LearningOutcomeClarification": "",
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activities of Analysis and Advise as I analysed the performance of ThreeJS and advised for the use of a criteria for establishing a smooth experience with ThreeJS. I also analysed if the large amounts of data that need to be handled by the server could be a problem and advised that this won’t be a problem, but further research is necessary. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it plays a role in the concepting phase of the project. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is an effective approach to validate if the concept can actually be realised. Therefore, Learning Outcome 4: Investigative Problem Solving applies. <br><br> I identified potential problems and found an effective approach to find an answer to my question. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
 		"IctReasearchMethod": {
 			"Label": "System test",
 			"Url": "https://ictresearchmethods.nl/lab/system-test/"
@@ -214,7 +214,7 @@
 	"conceptvalidation": {
 		"name": "Concept Validation",
 		"summary": "The focusgroup discussion resulted in an interesting idea to develop into a concept, but first this idea needs to be validated in order to be sure that it will solve the problems of the user. There are multiple options when it comes to concept validation. It can be done with another focusgroup discussion with the target audience, also a video on social media explaining the idea and gathering the audience's reactions could be a potential option. However, I think it's most efficient to make some early wireframes and test them during interviews with the target audience. This will give me qualitative feedback about the idea and it also gives me a little head start on the design phase of the project as I can use the tested and iterated wireframes to apply the corporate branding of RN365 and finish the design. I also conducted an interview with strategy expert Michiel to see if he has some feedback on the idea. <br><br> The idea is developed into a rapid prototype that's been tested, iterated and reviewed by a strategy expert. I'm now sure that the visualization tool with the 3D simulation and the automated eventfeed will provide a solution to the problem statement. Also the general layout of the tool has been tested and improved and I'm convinced that a vertical layout for the eventfeed works best.",
-		"imageUrl": "/img/pexels-tara-winstead-8850709.jpg",
+		"imageUrl": "/img/conceptvalidation.png",
 		"documentUrl": "https://docs.google.com/document/d/16Gq-uPaawIx54JfEQ8A9LcfFCn3mJQo_fjLU4ffubNw/edit?usp=sharing",
 		"date": "18-10-2023",
 		"research": "Field / Lab Research",
