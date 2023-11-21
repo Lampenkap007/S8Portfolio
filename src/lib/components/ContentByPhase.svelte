@@ -49,6 +49,7 @@
 		font-family: 'Comfortaa', cursive;
 		box-shadow: 10px 10px 36px 15px rgba(0, 0, 0, 0.05);
 		width: 25rem;
+		max-width: 80vw;
 		padding: 3rem;
 		border-radius: 2rem;
 	}
