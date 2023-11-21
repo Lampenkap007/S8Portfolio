@@ -60,13 +60,13 @@
 	},
 	{
 		"title": "UI Design",
-		"introduction": "Geen lorem ipsum text",
+		"introduction": "A good user interface is key to a good user experience. With this project phase, the concept visually comes to live and starts to function as close to a real product as possible.",
 		"accentColor": "#ffb905",
 
 		"deliverables": [
 			{
-				"label": "item1",
-				"url": "/deliverables/deliverable1"
+				"label": "RacingNews365 Visual Audit",
+				"url": "/deliverables/rn365visualaudit"
 			},
 			{
 				"label": "item2",

@@ -1,5 +1,6 @@
 <script>
 	import { page } from '$app/stores';
+	import InternShipManager from '$lib/components/InternShipManager.svelte';
 	// import Navbar from '$lib/components/Navbar.svelte';
 	import data from '../../../lib/assets/data/deliverables.json';
 	import ImageCarousel from '../../../lib/components/ImageCarousel.svelte';
@@ -108,6 +109,7 @@
 						</li>
 					</ul>
 				</div>
+				<InternShipManager />
 				<ImageCarousel />
 			</div>
 			<div class="contentBlockRight">
@@ -198,8 +200,7 @@
 		cursor: pointer;
 		outline: inherit;
 	}
-	.learningOutcomeClarification {
-	}
+
 	.IctReasearchMethod {
 		color: black;
 	}
@@ -274,8 +275,9 @@
 		cursor: pointer;
 	}
 	.deliverableDetails {
-		border-radius: 20px;
+		border-radius: 2rem;
 		padding: 8px;
+		margin-bottom: 20px;
 		background-color: #f2f2f2;
 	}
 	.deliverableDetailList {
