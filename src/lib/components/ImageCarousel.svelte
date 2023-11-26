@@ -6,7 +6,6 @@
 
 	const deliverable = $page.params.deliverable;
 	let images = data[deliverable].images;
-	console.log(images);
 
 	function showNext() {
 		currentIndex = (currentIndex + 1) % images.length;

@@ -12,6 +12,9 @@
 </script>
 
 <!-- <Navbar /> -->
+<svelte:head>
+	<title>{pageContent.name + ' S8-Graduation - Jordi Franssen'}</title>
+</svelte:head>
 <div class="contentPage">
 	<div class="contentBlock">
 		<div class="banner" style="background-image: url({pageContent.imageUrl});">
