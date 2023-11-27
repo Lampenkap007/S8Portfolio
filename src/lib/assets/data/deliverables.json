@@ -268,5 +268,26 @@
 				"Caption": "Improvements to the track status indicator."
 			}
 		]
+	},
+	"developmentapi": {
+		"name": "Development API",
+		"summary": "The corporate branding is now applied to the wireframes, but to be sure the combination of the corporate branding and the wireframes works for the users, the design is validated. This is done with a Heuristic Evaluation, where the design is checked on the 10 usability heuristics defined by Jacob Nielsen. This is a quick and low effort test to check if I made any critical errors in the design. Later, I tested the design with a few employees at RN365. I considered these candidates perfect for testing as they don’t yet know of my project and match the target audience of RN365. <br><br> The design of the tool passes the 10 heuristics of the heuristic evaluation, so this didn’t result in any improvements to the design. Later when the design was tested with users, I discovered a small error in the lap count visualization and the track status indicator and made improvements on the design to prevent these errors for the user. I also got some valuable feedback on the concept from the test candidates and I received a list with words users look for when searching for a Formula 1 liveblog on Google. These words can be implemented in the tool to improve SEO.",
+		"imageUrl": "/img/developmentapi.png",
+		"documentUrl": "https://docs.google.com/document/d/1_t3RxpnSGRNIh0BmKXQfTD9XFBTt0nulYnk9rVIBp3U/edit?usp=sharing",
+		"date": "30-10-2023",
+		"research": "Lab Research",
+		"phase": "UI Design",
+		"learningOutcomes": [1, 2, 4, 6],
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activities of Analysis, Design and Realise, as I analyzed for errors in the design and designed and realized improvements for the high fidelity prototype. This is a professional product that is in line with the IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it resulted in valuable improvements on the design. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is an effective approach to improve and validate the design. I used a variety of research strategies, methods and activities to find problems with the prototype and came to solutions that were later validated with the relevant stakeholder. Therefore, Learning Outcome 4: Investigative Problem Solving applies. <br><br> I took the lead in my project for this deliverable as I independently planned meetings with employees of RN365 and executed the user tests. Therefore, Learning Outcome 5: Personal Leadership applies. <br><br> My communication has the right impact and execution as I communicated appropriately with RN365 and the test candidates. Therefore, Learning Outcome 6: Targeted Interaction applies.",
+		"IctReasearchMethod": {
+			"Label": "Usability testing",
+			"Url": "https://ictresearchmethods.nl/lab/usability-testing/"
+		},
+		"images": [
+			{
+				"Url": "/img/designvalidationImprovements.png",
+				"Caption": "Improvements to the track status indicator."
+			}
+		]
 	}
 }

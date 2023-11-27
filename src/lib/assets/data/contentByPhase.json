@@ -76,13 +76,13 @@
 	},
 	{
 		"title": "Development",
-		"introduction": "Geen lorem ipsum text",
+		"introduction": "In the development phase, a functional product is built including all necessary preparations like software architecture and setting up the development environment etc.",
 		"accentColor": "#705df2",
 
 		"deliverables": [
 			{
-				"label": "item1",
-				"url": "/deliverables/deliverable1"
+				"label": "Development API",
+				"url": "/deliverables/developmentapi"
 			},
 			{
 				"label": "item2",
