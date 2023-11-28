@@ -271,23 +271,50 @@
 	},
 	"developmentapi": {
 		"name": "Development API",
-		"summary": "The corporate branding is now applied to the wireframes, but to be sure the combination of the corporate branding and the wireframes works for the users, the design is validated. This is done with a Heuristic Evaluation, where the design is checked on the 10 usability heuristics defined by Jacob Nielsen. This is a quick and low effort test to check if I made any critical errors in the design. Later, I tested the design with a few employees at RN365. I considered these candidates perfect for testing as they don’t yet know of my project and match the target audience of RN365. <br><br> The design of the tool passes the 10 heuristics of the heuristic evaluation, so this didn’t result in any improvements to the design. Later when the design was tested with users, I discovered a small error in the lap count visualization and the track status indicator and made improvements on the design to prevent these errors for the user. I also got some valuable feedback on the concept from the test candidates and I received a list with words users look for when searching for a Formula 1 liveblog on Google. These words can be implemented in the tool to improve SEO.",
+		"summary": "The tool I’m building is using live data from a Formula 1 race. These races only happen on the weekend and the last race of this season is in the last weekend of November already. For the sake of convenience, it’s important to be able to develop and test the tool whenever I want. Therefore, I built a development API. This API is able to process the positioning data from the Formula 1 static API from every race and all the raw data from the live API from the 2023 Vegas GP. The data from this race will be sufficient to build the tool, but to test the tool for other races, the API will have to be elaborated upon in order to process all the data from other races.",
 		"imageUrl": "/img/developmentapi.png",
-		"documentUrl": "https://docs.google.com/document/d/1_t3RxpnSGRNIh0BmKXQfTD9XFBTt0nulYnk9rVIBp3U/edit?usp=sharing",
-		"date": "30-10-2023",
-		"research": "Lab Research",
-		"phase": "UI Design",
-		"learningOutcomes": [1, 2, 4, 6],
-		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activities of Analysis, Design and Realise, as I analyzed for errors in the design and designed and realized improvements for the high fidelity prototype. This is a professional product that is in line with the IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant and valuable as it resulted in valuable improvements on the design. I also worked in a methodological and structured way. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> This deliverable is an effective approach to improve and validate the design. I used a variety of research strategies, methods and activities to find problems with the prototype and came to solutions that were later validated with the relevant stakeholder. Therefore, Learning Outcome 4: Investigative Problem Solving applies. <br><br> I took the lead in my project for this deliverable as I independently planned meetings with employees of RN365 and executed the user tests. Therefore, Learning Outcome 5: Personal Leadership applies. <br><br> My communication has the right impact and execution as I communicated appropriately with RN365 and the test candidates. Therefore, Learning Outcome 6: Targeted Interaction applies.",
+		"documentUrl": "https://docs.google.com/document/d/13UhSOyT-zhnJX8PE8_56Q33RX7rne5E9j1kM8uQMpic/edit?usp=sharing",
+		"date": "31-10-2023",
+		"research": "Not applicable",
+		"phase": "Development",
+		"learningOutcomes": [1, 2, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activities of Realize and Advise as I realized a development API to use during development and advised on future elaborations of the API. Therefore, Learning Outcome 1: Professional Duties applies <br><br> This deliverable is relevant for one or more persons and creates value as this API is necessary to test and build the tool I’m going to make. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> I identified a problem, which is the inability to develop and test when live data is not available. I found an effective approach and arrived at appropriate solutions by making a development API so I can test and build whenever I want. Therefore, Learning Outcome 4: Investigative Problem Solving applies",
 		"IctReasearchMethod": {
 			"Label": "Usability testing",
 			"Url": "https://ictresearchmethods.nl/lab/usability-testing/"
 		},
-		"images": [
-			{
-				"Url": "/img/designvalidationImprovements.png",
-				"Caption": "Improvements to the track status indicator."
-			}
-		]
+		"images": false
+	},
+	"realtimecommunicationmethods": {
+		"name": "Realtime Communication Methods",
+		"summary": "Data needs to be processed by a server before it gets sent to the client. There are multiple real time communication methods to do this. Therefore, I need to know which one works best for the tool I’m going to make. <br><br> I conducted an expert interview with John to determine which methods to compare to find the best option. With this information, I conducted library research online to find pros and cons for each method and concluded which one is the best to implement in my tool. <br><br> I found that Server Send Events (SSE) works best as SSE is fast and easy to implement. It also allows only one-way traffic. This works for my tool as the clients don’t have to send any information back to the server.",
+		"imageUrl": "/img/realtimecommunicationmethods.png",
+		"documentUrl": "https://docs.google.com/document/d/1L1umNYMEO2oX1zMa7jFsIxtP7aVyqYThFIpRibqKM_0/edit?usp=sharing",
+		"date": "01-11-2023",
+		"research": "Library Research",
+		"phase": "Development",
+		"learningOutcomes": [1, 2, 4, 6],
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activities of Analysis and Advise as I analyzed what the best possible real-time communication method is and advised which one to use in my project. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> This deliverable is relevant for one or more persons and creates value as it’s important that the correct communication method is used to get data from the server to the client. I also worked in a methodological and structured way as I first interviewed an expert to determine which options to further investigate and later compared these options to come to a dependable solution. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> I used a variety of research strategies, methods and activities to come to my conclusion. Therefore, Learning Outcome 4: Investigative Problem Solving applies. <br><br> I communicated appropriately with partners in my project as I conducted an interview with an expert to achieve the right impact and execution. Therefore, Learning Outcome 6: Targeted Interaction applies.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": "https://ictresearchmethods.nl/library/expert-interview/"
+		},
+		"images": false
+	},
+	"frontendframeworkcomparison": {
+		"name": "Front-end Framework Comparison",
+		"summary": "The tool will be built in a web environment and therefore, a front-end framework will be implemented. I conducted research on which front-end framework fits best for my project. TDE uses Svelte as their standard front-end framework, but in the ThreeJS course, I learned that React has a special front-end framework for ThreeJS called React-Three-Fiber. Later I found that Threlte is a similar framework that’s built upon SvelteKit. However, using Threlte makes it almost impossible to implement YukaJS, but it’s almost certain that YukaJS won’t be used anyway. <br><br> I conducted an open expert interview to discuss my findings on which front-end framework to use. Expert John was able to tell that Threlte can also be used as a module within Svelte and not as a standalone framework based on SvelteKit. John also opted to implement the tool in the RN365 repository right away and not to make a separate MVP. This also makes it impossible to use SvelteKit as RN365 uses custom routing that’s incompatible with the pre-baked routing built into SvelteKit. Therefore, we came to the conclusion to build the tool directly into the RN365 repository, and therefore use Svelte with Threlte as a module.",
+		"imageUrl": "/img/frontendframeworkcomparison.png",
+		"documentUrl": "https://docs.google.com/document/d/1r-3s6VcfqnPYETKr_iLaPyvgcSu0fOFpygetcF9ni7A/edit?usp=sharing",
+		"date": "06-11-2023",
+		"research": "Library Research",
+		"phase": "Development",
+		"learningOutcomes": [1, 2, 4, 6],
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activities of Analysis and Advise as I analyzed what is the best front-end framework to use for the tool and advised what front-end framework to use and how the tool will be built. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> By deciding to build my tool directly into the RN365 repository and therefore using Svelte as front-end framework, I adapt to the processes and way of working of the company as TDE uses Svelte as their standard front-end framework. This deliverable is also relevant and valuable for one or more persons and creates value as I now know how to build the tool in the development phase. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> I identified a problem, which is that I didn’t know what front-end framework to use for the development of my tool and I found an effective approach and arrived at appropriate solutions by using a variety of research strategies, methods and activities as I conducted an expert interview to come to a conclusion on which front-end framework to use. Therefore, Learning Outcome 4: Investigative Problem Solving applies. <br><br> I collaborated appropriately with expert John, a partner in my project to achieve the desired impact. Therefore, Learning Outcome 6: Targeted Interaction applies.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": "https://ictresearchmethods.nl/library/expert-interview/"
+		},
+		"images": false
 	}
 }

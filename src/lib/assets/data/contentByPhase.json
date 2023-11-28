@@ -85,8 +85,12 @@
 				"url": "/deliverables/developmentapi"
 			},
 			{
-				"label": "item2",
-				"url": "/deliverables/deliverable1"
+				"label": "Realtime Communication Methods",
+				"url": "/deliverables/realtimecommunicationmethods"
+			},
+			{
+				"label": "Front-end Framework Comparison",
+				"url": "/deliverables/frontendframeworkcomparison"
 			}
 		]
 	},
