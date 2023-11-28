@@ -316,5 +316,21 @@
 			"Url": "https://ictresearchmethods.nl/library/expert-interview/"
 		},
 		"images": false
+	},
+	"softwareandserverarchitecture": {
+		"name": "Software and Server Architecture",
+		"summary": "The tool will be built in a web environment and therefore, a front-end framework will be implemented. I conducted research on which front-end framework fits best for my project. TDE uses Svelte as their standard front-end framework, but in the ThreeJS course, I learned that React has a special front-end framework for ThreeJS called React-Three-Fiber. Later I found that Threlte is a similar framework that’s built upon SvelteKit. However, using Threlte makes it almost impossible to implement YukaJS, but it’s almost certain that YukaJS won’t be used anyway. <br><br> I conducted an open expert interview to discuss my findings on which front-end framework to use. Expert John was able to tell that Threlte can also be used as a module within Svelte and not as a standalone framework based on SvelteKit. John also opted to implement the tool in the RN365 repository right away and not to make a separate MVP. This also makes it impossible to use SvelteKit as RN365 uses custom routing that’s incompatible with the pre-baked routing built into SvelteKit. Therefore, we came to the conclusion to build the tool directly into the RN365 repository, and therefore use Svelte with Threlte as a module.",
+		"imageUrl": "/img/softwareandserverarchitecture.png",
+		"documentUrl": "https://docs.google.com/document/d/1r-3s6VcfqnPYETKr_iLaPyvgcSu0fOFpygetcF9ni7A/edit?usp=sharing",
+		"date": "14-11-2023",
+		"research": "Library Research",
+		"phase": "Development",
+		"learningOutcomes": [1, 2, 3, 4, 6],
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activities of Analyze, Advise, and Design as I analyzed what the architecture of the backend should look like, advised on what servers to use and designed an IT architecture diagram to visualize my findings. This is in line with IT-area User Interaction. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> My work is relevant for one or more persons and creates value as I now know how to code the backend scripts. I also worked in a methodological and structured way in a context where approach and solution areas are open, with multiple stakeholders and multiple IT areas combined as I methodologically interviewed an expert in backend development and DevOps. Therefore, Learning Outcome 2: Situation-Orientation applies. <br><br> I took sustainability, business and money into consideration as I designed an IT architecture that saves money when demand is low. Also the Lambda server scale automatically, so the backend will never fail as a result of high demand. Therefore, Learning Outcome 3: Future-Oriented Organisation applies. <br><br> I identified a problem, which is the potential risk of a failing backend as a result of high demand, found an effective approach and came to an appropriate solution by using a variety of research strategies, methods and activities as I interviewed an expert on backend development and DevOps and visualized my findings in an IT architecture diagram. Therefore, Learning Outcome 4: Investigative Problem Solving applies. <br><br> I communicated appropriately to achieve the desired impact by interviewing an expert on backend development and DevOps. Therefore, Learning Outcome 6: Targeted Interaction applies.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": "https://ictresearchmethods.nl/library/expert-interview/"
+		},
+		"images": false
 	}
 }

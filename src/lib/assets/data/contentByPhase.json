@@ -92,6 +92,11 @@
 				"label": "Front-end Framework Comparison",
 				"url": "/deliverables/frontendframeworkcomparison"
 			}
+			,
+			{
+				"label": "Software and Server Architecture",
+				"url": "/deliverables/softwareandserverarchitecture"
+			}
 		]
 	},
 	{
