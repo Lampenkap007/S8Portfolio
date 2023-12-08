@@ -357,5 +357,37 @@
 				"Caption": "New Team Jumbo-Visma Partners"
 			}
 		]
+	},
+	"backenddevelopment": {
+		"name": "Backend Development",
+		"summary": "I built a backend script that will process the eventstream from the undocumented API, detects events and logs them in the console. During the development of the front-end, the websocket logic will be implemented to send the events from the backend script to the front-end. This script will run on the EC2 server as defined during the interview with DevOps expert Jordi. For now, the script logs the time of the event, in what lap the event happened, and the text for the liveblog message, as this is the information that I’ll need for the front-end.",
+		"imageUrl": "/img/backenddevelopment.png",
+		"documentUrl": "https://docs.google.com/document/d/1FCkuWdwSmeCBO1BhdNN9kexEKbBiBPLDoSNs18JFVts/edit?usp=sharing",
+		"date": "8-12-2023",
+		"research": "Not applicable",
+		"phase": "Development",
+		"learningOutcomes": [1, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activity of Realize, as I realized a backend script for the new liveblog that I’m going to build. It is also a professional product as a result of a professional duty as I interviewed an expert before building my backend script and built the script for the EC2 server as discussed during this interview. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> For this deliverable, I used results from research to create valuable solutions as I interviewed an expert to know how to build the backend script for the new liveblog. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": false
+	},
+	"dataanalytics": {
+		"name": "Data Analytics",
+		"summary": "For the Vegas GP, I recorded all data from the Formula 1 API and made a screen recording from the live broadcast. This way, I am able to tell which data belongs to which moment in the race and therefore, I can do some data analytics to find out what the variables in the data actually mean. <br><br> Because of the screen recording I was also able to determine a delay between the data source and the live broadcast. This delay turns out to be around 25 seconds. I have also been able to determine how to detect potential crashes, pit stops and tyre changes, overtakes and how to match the racing numbers in the API with the full names of the drivers.",
+		"imageUrl": "/img/dataanalytics.png",
+		"documentUrl": "https://docs.google.com/document/d/1-AKqcGuO-JB4ZTjVzuk-YgOzA1aDlxqjGw2pFd-hAFI/edit?usp=sharing",
+		"date": "20-11-2023",
+		"research": "Not applicable",
+		"phase": "Development",
+		"learningOutcomes": [],
+		"LearningOutcomeClarification": "",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": false
 	}
 }
