@@ -91,11 +91,14 @@
 			{
 				"label": "Front-end Framework Comparison",
 				"url": "/deliverables/frontendframeworkcomparison"
-			}
-			,
+			},
 			{
 				"label": "Software and Server Architecture",
 				"url": "/deliverables/softwareandserverarchitecture"
+			},
+			{
+				"label": "Team Jumbo-Visma Rebrand",
+				"url": "/deliverables/teamjumbovismarebrand"
 			}
 		]
 	},
