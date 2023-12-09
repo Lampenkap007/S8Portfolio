@@ -319,9 +319,9 @@
 	},
 	"softwareandserverarchitecture": {
 		"name": "Software and Server Architecture",
-		"summary": "The tool will be built in a web environment and therefore, a front-end framework will be implemented. I conducted research on which front-end framework fits best for my project. TDE uses Svelte as their standard front-end framework, but in the ThreeJS course, I learned that React has a special front-end framework for ThreeJS called React-Three-Fiber. Later I found that Threlte is a similar framework that’s built upon SvelteKit. However, using Threlte makes it almost impossible to implement YukaJS, but it’s almost certain that YukaJS won’t be used anyway. <br><br> I conducted an open expert interview to discuss my findings on which front-end framework to use. Expert John was able to tell that Threlte can also be used as a module within Svelte and not as a standalone framework based on SvelteKit. John also opted to implement the tool in the RN365 repository right away and not to make a separate MVP. This also makes it impossible to use SvelteKit as RN365 uses custom routing that’s incompatible with the pre-baked routing built into SvelteKit. Therefore, we came to the conclusion to build the tool directly into the RN365 repository, and therefore use Svelte with Threlte as a module.",
+		"summary": "In the feasibility study, I discovered that potentially terabytes worth of data have to be processed during a racing event and concluded that some extra research needs to be conducted to define how the backend will support such large amounts of data. In an open expert interview with Jordi, I found that two types of servers will be used to host the backend of the tool. An EC2 server that continuously processes data from the FIA API and a few smaller Lambda servers to handle smaller tasks. This setup was chosen because the Lambda servers handle scalability all by themself, so they automatically scale up when demand is high. This is important as the tool will only be used during racing events. Lambda servers are also billed by usage, which saves costs when no races are held and demand is low. This setup was visualized in an IT architecture diagram.",
 		"imageUrl": "/img/softwareandserverarchitecture.png",
-		"documentUrl": "https://docs.google.com/document/d/1r-3s6VcfqnPYETKr_iLaPyvgcSu0fOFpygetcF9ni7A/edit?usp=sharing",
+		"documentUrl": "https://docs.google.com/document/d/1qDXR4tcZwgUPsacFMy4hPADJpD9wXjLG3pr6oSrLHyc/edit?usp=sharing",
 		"date": "14-11-2023",
 		"research": "Library Research",
 		"phase": "Development",
@@ -332,5 +332,87 @@
 			"Url": "https://ictresearchmethods.nl/library/expert-interview/"
 		},
 		"images": false
+	},
+	"teamjumbovismarebrand": {
+		"name": "Team Jumbo-Visma Rebrand",
+		"summary": "A little while ago, TDE asked if I could assist with a little side project for a few days. This was a project for Team Jumbo-Visma. The sports team is going through a rebrand since Jumbo Supermarkten pulled the plug from their sponsorship. This resulted in a new brand around the sports team and the new corporate branding has to be implemented in their website. <br><br> Since their website has a similar setup as RN365, this was a great opportunity to prepare for the development of the new liveblog on the RN365 website. In this document you’ll read about my activities in this project, what I learned and how it helped me in my own project for RN365. <br><br> Thanks to my activities in this project, I was able to help TDE and get to know their way of working on a project. The time I spent on this project was also valuable for my own project as it was a refresh for me on TWIG, WSL and SCSS.",
+		"imageUrl": "/img/tjvrebrand.png",
+		"documentUrl": "https://docs.google.com/document/d/1Sl142wvyHTiuxybCqOKfxz2qCTnFwvM3D2oCCSpdGP0/edit?usp=sharing",
+		"date": "8-12-2023",
+		"research": "Not applicable",
+		"phase": "Development",
+		"learningOutcomes": [2],
+		"LearningOutcomeClarification": "For this deliverable, I adapted to the processes and way of thinking of the company as I was able to work on a project that was setup with Macbooks with a Windows laptop. My work was also relevant and valuable as I helped TDE with their project, and it was valuable for me as it was a refresh on different techniques that will be used in my own project. Therefore, Learning Outcome 2: Situation-Orientation applies.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": [
+			{
+				"Url": "/img/tjvcalendar.png",
+				"Caption": "New Team Jumbo-Visma Calendar"
+			},
+			{
+				"Url": "/img/tjvpartners.png",
+				"Caption": "New Team Jumbo-Visma Partners"
+			}
+		]
+	},
+	"backenddevelopment": {
+		"name": "Backend Development",
+		"summary": "I built a backend script that will process the eventstream from the undocumented API, detects events and logs them in the console. During the development of the front-end, the websocket logic will be implemented to send the events from the backend script to the front-end. This script will run on the EC2 server as defined during the interview with DevOps expert Jordi. For now, the script logs the time of the event, in what lap the event happened, and the text for the liveblog message, as this is the information that I’ll need for the front-end.",
+		"imageUrl": "/img/backenddevelopment.png",
+		"documentUrl": "https://docs.google.com/document/d/1FCkuWdwSmeCBO1BhdNN9kexEKbBiBPLDoSNs18JFVts/edit?usp=sharing",
+		"date": "8-12-2023",
+		"research": "Not applicable",
+		"phase": "Development",
+		"learningOutcomes": [1, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activity of Realize, as I realized a backend script for the new liveblog that I’m going to build. It is also a professional product as a result of a professional duty as I interviewed an expert before building my backend script and built the script for the EC2 server as discussed during this interview. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> For this deliverable, I used results from research to create valuable solutions as I interviewed an expert to know how to build the backend script for the new liveblog. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": false
+	},
+	"dataanalytics": {
+		"name": "Data Analytics",
+		"summary": "For the Vegas GP, I recorded all data from the Formula 1 API and made a screen recording from the live broadcast. This way, I am able to tell which data belongs to which moment in the race and therefore, I can do some data analytics to find out what the variables in the data actually mean. <br><br> Because of the screen recording I was also able to determine a delay between the data source and the live broadcast. This delay turns out to be around 25 seconds. I have also been able to determine how to detect potential crashes, pit stops and tyre changes, overtakes and how to match the racing numbers in the API with the full names of the drivers.",
+		"imageUrl": "/img/dataanalytics.png",
+		"documentUrl": "https://docs.google.com/document/d/1-AKqcGuO-JB4ZTjVzuk-YgOzA1aDlxqjGw2pFd-hAFI/edit?usp=sharing",
+		"date": "20-11-2023",
+		"research": "Not applicable",
+		"phase": "Development",
+		"learningOutcomes": [],
+		"LearningOutcomeClarification": "",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": false
+	},
+	"devtalkweyweyweb": {
+		"name": "DevTalk WeyWeyWeb",
+		"summary": "This year, I attended the WeyWeyWeb UX and UI conference in Malaga on behalf of my internship company, TDE. I had my personal reasons to be in Malaga at the time of the event and I knew that WeyWeyWeb would be an interesting event to gain some interesting knowledge related to my IT field. Therefore, I asked TDE if I could attend the conference and bring some valuable knowledge home to share with the rest of the team at my internship company. <br><br> TDE regularly organises a DevTalk meeting to discuss and share interesting topics and knowledge with the team. So therefore, a DevTalk would be the perfect moment to share my insights from WeyWeyWeb. This DevTalk is held on monday 10-12 and I prepared a presentation to share my experiences with the team. The slides are in the documentation.",
+		"imageUrl": "/img/weyweyweb.png",
+		"documentUrl": "/docs/devtalk.pdf",
+		"date": "09-12-2023",
+		"research": "Not applicable",
+		"phase": "Not applicable",
+		"learningOutcomes": [5, 6],
+		"LearningOutcomeClarification": "I attended WeyWeyWeb because I pay attention to your own learning ability and keep in mind what kind of IT professional and/or what type of positions you aspire to. As I attended WeyWeyWeb, I gained valuable knowledge that will help me in my IT area. Therefore,Learning Outcome 5: Personal Leadership applies. <br><br> I presented my insights from WeyWeyWeb to the team. Therefore, Learning Outcome 6: Targeted Interaction applies.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": [
+			{
+				"Url": "/img/weyweyweb.jpg",
+				"Caption": "WeyWeyWeb"
+			},
+			{
+				"Url": "/img/weyweywebme.jpg",
+				"Caption": "Jordi at WeyWeyWeb"
+			}
+		]
 	}
 }

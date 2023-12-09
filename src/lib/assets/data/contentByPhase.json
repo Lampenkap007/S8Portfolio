@@ -85,6 +85,10 @@
 				"url": "/deliverables/developmentapi"
 			},
 			{
+				"label": "Data Analytics",
+				"url": "/deliverables/dataanalytics"
+			},
+			{
 				"label": "Realtime Communication Methods",
 				"url": "/deliverables/realtimecommunicationmethods"
 			},
@@ -95,6 +99,14 @@
 			{
 				"label": "Software and Server Architecture",
 				"url": "/deliverables/softwareandserverarchitecture"
+			},
+			{
+				"label": "Team Jumbo-Visma Rebrand",
+				"url": "/deliverables/teamjumbovismarebrand"
+			},
+			{
+				"label": "Backend Development",
+				"url": "/deliverables/backenddevelopment"
 			}
 		]
 	},
