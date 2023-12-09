@@ -91,8 +91,7 @@
 			{
 				"label": "Front-end Framework Comparison",
 				"url": "/deliverables/frontendframeworkcomparison"
-			}
-			,
+			},
 			{
 				"label": "Software and Server Architecture",
 				"url": "/deliverables/softwareandserverarchitecture"
@@ -106,8 +105,8 @@
 
 		"deliverables": [
 			{
-				"label": "item1",
-				"url": "/deliverables/deliverable1"
+				"label": "DevTalk WeyWeyWeb",
+				"url": "/deliverables/devtalkweyweyweb"
 			},
 			{
 				"label": "item2",

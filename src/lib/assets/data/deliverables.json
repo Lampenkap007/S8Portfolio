@@ -332,5 +332,30 @@
 			"Url": "https://ictresearchmethods.nl/library/expert-interview/"
 		},
 		"images": false
+	},
+	"devtalkweyweyweb": {
+		"name": "DevTalk WeyWeyWeb",
+		"summary": "This year, I attended the WeyWeyWeb UX and UI conference in Malaga on behalf of my internship company, TDE. I had my personal reasons to be in Malaga at the time of the event and I knew that WeyWeyWeb would be an interesting event to gain some interesting knowledge related to my IT field. Therefore, I asked TDE if I could attend the conference and bring some valuable knowledge home to share with the rest of the team at my internship company. <br><br> TDE regularly organises a DevTalk meeting to discuss and share interesting topics and knowledge with the team. So therefore, a DevTalk would be the perfect moment to share my insights from WeyWeyWeb. This DevTalk is held on monday 10-12 and I prepared a presentation to share my experiences with the team. The slides are in the documentation.",
+		"imageUrl": "/img/weyweyweb.png",
+		"documentUrl": "/docs/devtalk.pdf",
+		"date": "09-12-2023",
+		"research": "Not applicable",
+		"phase": "Not applicable",
+		"learningOutcomes": [5, 6],
+		"LearningOutcomeClarification": "I attended WeyWeyWeb because I pay attention to your own learning ability and keep in mind what kind of IT professional and/or what type of positions you aspire to. As I attended WeyWeyWeb, I gained valuable knowledge that will help me in my IT area. Therefore,Learning Outcome 5: Personal Leadership applies. <br><br> I presented my insights from WeyWeyWeb to the team. Therefore, Learning Outcome 6: Targeted Interaction applies.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": [
+			{
+				"Url": "/img/weyweyweb.jpg",
+				"Caption": "WeyWeyWeb"
+			},
+			{
+				"Url": "/img/weyweywebme.jpg",
+				"Caption": "Jordi at WeyWeyWeb"
+			}
+		]
 	}
 }
