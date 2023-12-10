@@ -414,5 +414,21 @@
 				"Caption": "Jordi at WeyWeyWeb"
 			}
 		]
+	},
+	"meetingsummariesandfeedback": {
+		"name": "Meeting Summaries and Feedback",
+		"summary": "This document embraces an overview of every meeting or feedback moment I had this semester. This includes meetings like the updates with my company coach John and my semestercoach Erik, but also meetings related to the project like feedback from RacingNews365 and interviews with colleagues.",
+		"imageUrl": "/img/meetingsummariesandfeedback.png",
+		"documentUrl": "https://docs.google.com/document/d/16k5Nhf6Q4CVznBXBei4AeU1W4ZbJowuFKHnnK5NjLq4/edit?usp=sharing",
+		"date": "05-09-2023",
+		"research": "Not applicable",
+		"phase": "Entire project",
+		"learningOutcomes": [5, 6],
+		"LearningOutcomeClarification": "Learning Outcome 5 applies for this deliverable as I took the lead in my own project planning wise as I independently planned every meeting with stakeholder RN365. This deliverable also proves that I can ask and receive feedback on my own actions.<br><br>Learning Outcome 6 applies for this deliverable as I communicated appropriately with the stakeholders in my project to ensure the right impact and execution.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": false
 	}
 }

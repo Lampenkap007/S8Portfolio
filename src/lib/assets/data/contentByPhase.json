@@ -132,8 +132,8 @@
 		"accentColor": "#A594F9",
 		"deliverables": [
 			{
-				"label": "item1",
-				"url": "/deliverables/"
+				"label": "Meeting Summaries and Feedback",
+				"url": "/deliverables/meetingsummariesandfeedback"
 			},
 			{
 				"label": "item1",
