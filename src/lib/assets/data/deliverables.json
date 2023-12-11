@@ -380,13 +380,13 @@
 		"imageUrl": "/img/dataanalytics.png",
 		"documentUrl": "https://docs.google.com/document/d/1-AKqcGuO-JB4ZTjVzuk-YgOzA1aDlxqjGw2pFd-hAFI/edit?usp=sharing",
 		"date": "20-11-2023",
-		"research": "Not applicable",
+		"research": "Lab Research",
 		"phase": "Development",
-		"learningOutcomes": [],
-		"LearningOutcomeClarification": "",
+		"learningOutcomes": [1, 4],
+		"LearningOutcomeClarification": "This deliverable is a professional duty on a bachelor level in the activity of Analysis as I analyzed the data from the data source and concluded on what data the data actually means and what data can be used to detect events happening during the race. Therefore, Learning Outcome 1: Professional Duties applies. <br><br> I used “Data analysis” as a research method from ictresearchmethods.nl for this deliverable. Therefore, Learning Outcome 4: Investigative Problem Solving applies.",
 		"IctReasearchMethod": {
-			"Label": "Expert Interview",
-			"Url": false
+			"Label": "Data analytics",
+			"Url": "https://ictresearchmethods.nl/lab/data-analytics/"
 		},
 		"images": false
 	},
