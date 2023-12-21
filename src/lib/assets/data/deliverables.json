@@ -462,5 +462,21 @@
 			"Url": false
 		},
 		"images": false
+	},
+	"returnday": {
+		"name": "Returnday",
+		"summary": "Half way during the semester there was an opportunity to present the project and get some feedback on progression. In the documentation you’ll find the slides I made for the presentation. The feedback from this day is included in the “Meeting Summaries and Feedback” deliverable.",
+		"imageUrl": "/img/returnday.png",
+		"documentUrl": "/docs/returnday.pdf",
+		"date": "27-11-2023",
+		"research": "Not applicable",
+		"phase": "Entire project",
+		"learningOutcomes": [5],
+		"LearningOutcomeClarification": "Learning outcome 5 applies for this deliverable as I showed that I can receive feedback on my actions.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": false
 	}
 }
