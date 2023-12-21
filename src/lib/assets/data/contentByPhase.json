@@ -11,6 +11,10 @@
 			{
 				"label": "Project Management",
 				"url": "/deliverables/projectmanagement"
+			},
+			{
+				"label": "Git Code Management",
+				"url": "/deliverables/gitcodemanagement"
 			}
 		]
 	},
@@ -111,7 +115,7 @@
 		]
 	},
 	{
-		"title": "Personal Development",
+		"title": "Personal Development and Reflections",
 		"introduction": "Personal development drives professional evolution. This semester, I honed my communication skills and delved into the realm of artificial intelligence, recognizing its potential for my role as a designer and developer. This growth not only enhances my capabilities but also broadens my contributions to the dynamic intersection of development and design.",
 		"accentColor": "#52B788",
 
@@ -121,8 +125,8 @@
 				"url": "/deliverables/devtalkweyweyweb"
 			},
 			{
-				"label": "item2",
-				"url": "/deliverables/deliverable1"
+				"label": "Reflection Conceptphase",
+				"url": "/deliverables/reflectionconceptphase"
 			}
 		]
 	},

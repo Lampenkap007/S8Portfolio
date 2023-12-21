@@ -430,5 +430,37 @@
 			"Url": false
 		},
 		"images": false
+	},
+	"gitcodemanagement": {
+		"name": "Git Code Management",
+		"summary": "I used Git as code management for the deliverables I’ve been working on during my internship. I haven’t used Git for all my code related deliverables. The Yuka.js POC’s were relatively small and these deliverables were only used to validate if something would work. They are not used during the build of the project itself. I also used Git to synchronize my work across my laptop for working at the office, and my desktop pc when working from home. <br><br> Git Fork is still my favorite Git client. Although I wasn’t able to use it in WSL for projects from TDE itself. Instead I used the Git CLI and the Git functionality in VSCode. I also used Git for continuous deployment from Github in Netlify where I host my portfolio. Next, I used Git for the development API to keep track of constant modifications. I collaborated with other colleagues in Git in the Team Jumbo-Visma rebrand side project, and of course I used Git for the build of my own project in the RN365 repository. I initially made a mistake by downloading a zip file from the repository and made it almost impossible to add a remote repository to the changes I had already made. But with some tips from John I was able to still add my project to a completely separate branch in the RN365 repository in TDE’s Gitlab.",
+		"imageUrl": "/img/gitcodemanagement.png",
+		"documentUrl": "https://docs.google.com/document/d/1h4Ku4v3wT-p3lJl8Qv3SiHTu5YyXevTDf_tbmEzgY7k/edit?usp=sharing",
+		"date": "20-12-2023",
+		"research": "Not applicable",
+		"phase": "Entire project",
+		"learningOutcomes": [1, 2, 6],
+		"LearningOutcomeClarification": "Learning outcome 1 applies to this deliverable because this is a professional duty on a bachelor level in the activity of Manage&Control and is in line with the IT area User Interaction. <br><br> Learning outcome 2 applies to this deliverable because I applied previously acquired knowledge about Git and adapted to the processes and way of working of the company. <br><br> Learning outcome 6 applies to this deliverable because I collaborated with colleagues in Git to work on the Team Jumbo-Visma side project.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": false
+	},
+	"reflectionconceptphase": {
+		"name": "Reflection Conceptphase",
+		"summary": "This semester, I decided to try a different approach to reflecting. I used to use the Four-L reflection method about every two weeks during previous semesters. I found that this is way too frequent, and that I often struggled to come up with genuine points to write down. Therefore, I reflected once per project phase on specific topics that I consider important for a reflection. These are activities and milestones, achievements, challenges and learning, feedback and interactions, skills and tools used, emotional and personal reflection and improvements for the rest of my internship. <br><br> The conclusion I get from this reflection is that there’s plenty to improve on focus and productivity. There are factors that made me struggle a bit with this topic, but I have a plan to improve on this.",
+		"imageUrl": "/img/reflectionconceptphase.png",
+		"documentUrl": "https://docs.google.com/document/d/1niVQx3_Am7-FS9v4Pw8KehMuAxkhv7KedDTzIaQMv9Q/edit?usp=sharing",
+		"date": "18-10-2023",
+		"research": "Not applicable",
+		"phase": "Entire project",
+		"learningOutcomes": [5],
+		"LearningOutcomeClarification": "Learning outcome 5 applies for this deliverable as I showed that I can reflect on my own actions.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": false
 	}
 }
