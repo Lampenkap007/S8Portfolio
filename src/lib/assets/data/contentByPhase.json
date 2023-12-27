@@ -111,6 +111,10 @@
 			{
 				"label": "Backend Development",
 				"url": "/deliverables/backenddevelopment"
+			},
+			{
+				"label": "Developing the Improved Liveblog",
+				"url": "/deliverables/developingtheimprovedliveblog"
 			}
 		]
 	},

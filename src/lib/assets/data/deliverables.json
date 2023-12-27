@@ -478,5 +478,26 @@
 			"Url": false
 		},
 		"images": false
+	},
+	"developingtheimprovedliveblog": {
+		"name": "Developing the Improved Liveblog",
+		"summary": "I assumed developing the improved liveblog would be the most difficult and time consuming stage of the project as a combination of technologies and coding languages make the project fairly complex. Fortunately, development ran smoothly and I was finished before I knew it. <br><br> My plan was to simply start developing and see how easy it goes. This way I assumed it would be easier to estimate a backlog for a scrum board. However, before I knew, I was already halfway finished. Because of the complexity and straight forward goal of the project, I decided to use the Ad Hoc method instead. <br><br> I ended up with a modified page of the CMS that receives the event detected by the backend. The editor has a variety of text options to choose from ranging from least exuberant to most exuberant. The editor can add an item straight to the liveblog, or edit it if necessary. A countdown clock is added so the editor can time the posting of a liveblog item to deliver a truly live experience for the liveblog user.",
+		"imageUrl": "/img/developingtheimprovedliveblog.png",
+		"documentUrl": "https://docs.google.com/document/d/1cV75CnoO-Dfc4RWAVfmMG0q3g9Oa_XTVk3-yW8rRiK0/edit?usp=sharing",
+		"date": "22-12-2023",
+		"research": "Not applicable",
+		"phase": "Development",
+		"learningOutcomes": [1, 2, 6],
+		"LearningOutcomeClarification": "Learning outcome 1 applies to this deliverable as this is a professional duty on a bachelor level in the activity of Realize and Manage&Control, as I realized the newly improved liveblog in the shape of an MVP and used the Ad Hoc method to manage the tasks in this stage of the project. <br><br> Learning outcome 2 applies to this deliverable as I used multiple technologies and coding languages that TDE uses to develop their projects. Therefore, I adapted to the processes and way of thinking of the company. My work is also relevant and valuable as this is the core business of my project. I also worked in a methodological and structured way, as I used the Ad Hoc management method to manage tasks in the development process. <br><br> Learning outcome 6 applies to this deliverable as I communicated appropriately with colleagues and got help with tasks I couldn't complete on my own.",
+		"IctReasearchMethod": {
+			"Label": "Expert Interview",
+			"Url": false
+		},
+		"images": [
+			{
+				"Url": "/img/liveblog.png",
+				"Caption": "Improved the CMS of the liveblog page."
+			}
+		]
 	}
 }
