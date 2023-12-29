@@ -520,5 +520,26 @@
 				"Caption": "The rethorical triangle."
 			}
 		]
+	},
+	"workingwithaiinaproject": {
+		"name": "Working with AI in a Project",
+		"summary": "Persuasive Communication Techniques are a nifty set of skills to influence an audience on an opinion. By structuring a presentation according to the rhetorical triangle and taking the opinion of the audience in mind, I can increase the credibility of my work. This way, I hope to do a distinctly lucid presentation to shift the opinions of the jury and the audience according to my liking.",
+		"imageUrl": "/img/advancedpersuasivecommunicationtechniques.png",
+		"documentUrl": "https://docs.google.com/document/d/1WW9Mut4PmA317CWWYNuJXoMF94PhJktSNNdmO5ZvRgU/edit?usp=sharing",
+		"date": "27-12-2023",
+		"research": "Deskresearch",
+		"phase": "Personal Development",
+		"learningOutcomes": [5, 6],
+		"LearningOutcomeClarification": "Learning outcome 5 applies to this deliverable as I paid attention to my learning ability and am aware of what I want to learn for the role that I envision in the IT-landscape. <br><br> Learning outcome 6 applies for this deliverable as I communicated appropriately to achieve the desired impact. I want to persuade the audience and jury during my graduation session and I will apply advanced persuasive communication techniques to appropriately achieve this.",
+		"IctReasearchMethod": {
+			"Label": "Literature study",
+			"Url": "https://ictresearchmethods.nl/library/literature-study/"
+		},
+		"images": [
+			{
+				"Url": "/img/therethoricaltriangle.png",
+				"Caption": "The rethorical triangle."
+			}
+		]
 	}
 }
