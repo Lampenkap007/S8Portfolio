@@ -523,23 +523,18 @@
 	},
 	"workingwithaiinaproject": {
 		"name": "Working with AI in a Project",
-		"summary": "Persuasive Communication Techniques are a nifty set of skills to influence an audience on an opinion. By structuring a presentation according to the rhetorical triangle and taking the opinion of the audience in mind, I can increase the credibility of my work. This way, I hope to do a distinctly lucid presentation to shift the opinions of the jury and the audience according to my liking.",
-		"imageUrl": "/img/advancedpersuasivecommunicationtechniques.png",
-		"documentUrl": "https://docs.google.com/document/d/1WW9Mut4PmA317CWWYNuJXoMF94PhJktSNNdmO5ZvRgU/edit?usp=sharing",
+		"summary": "I started working with AI this semester, primarily with ChatGPT. ChatGPT has had a tremendous effect on my productivity and allowed me to build the new liveblog as I have designed it in the concepting phase. <br><br> In this document, I explained how I used ChatGPT as a search engine, for feedback on my work, when I don’t know an approach for things and for code related assistance. I also included how I made custom GPTs to summarize my documentation for assessment and that I made a GPT to assist me with the production of two videos that I’m planning to make for my presentation at my graduation conference. I also included my ethical opinion of the use of AI as a coding assistant.",
+		"imageUrl": "/img/workingwithaiinaproject.png",
+		"documentUrl": "https://docs.google.com/document/d/1SNjX0nxwXkJ-2NNpC2HK_tpX3EhUq4T5AH0kAgF_rME/edit?usp=sharing",
 		"date": "27-12-2023",
-		"research": "Deskresearch",
+		"research": "Not applicable",
 		"phase": "Personal Development",
-		"learningOutcomes": [5, 6],
-		"LearningOutcomeClarification": "Learning outcome 5 applies to this deliverable as I paid attention to my learning ability and am aware of what I want to learn for the role that I envision in the IT-landscape. <br><br> Learning outcome 6 applies for this deliverable as I communicated appropriately to achieve the desired impact. I want to persuade the audience and jury during my graduation session and I will apply advanced persuasive communication techniques to appropriately achieve this.",
+		"learningOutcomes": [3, 5],
+		"LearningOutcomeClarification": "Learning outcome 5 applies to this deliverable as I wanted to learn to use AI to speed up my workflow this semester. Therefore, I paid attention to your own learning ability. <br><br> Learning outcome 3 applies to this deliverable as I considered ethical perspectives of the use of AI in projects.",
 		"IctReasearchMethod": {
 			"Label": "Literature study",
-			"Url": "https://ictresearchmethods.nl/library/literature-study/"
+			"Url": false
 		},
-		"images": [
-			{
-				"Url": "/img/therethoricaltriangle.png",
-				"Caption": "The rethorical triangle."
-			}
-		]
+		"images": false
 	}
 }
