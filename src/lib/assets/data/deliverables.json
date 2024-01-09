@@ -572,5 +572,21 @@
 			"Url": false
 		},
 		"images": false
+	},
+	"progressupdates": {
+		"name": "Progress Updates",
+		"summary": "Considering the fact that I only had about 15 minutes for every progress update with my semestercoach Erik. I decided to present my progress in a slideshow if I had a lot to discuss. I did this to keep things organised and to make sure I didn’t forget anything in those 15 minutes. Only the slides of these slideshows are in the documentation. Summaries of what was discussed and the feedback I received are in the <a href='https://s8-graduation.jordifranssen.com/deliverables/meetingsummariesandfeedback'>Meeting Summaries and Feedback</a> deliverable.",
+		"imageUrl": "/img/progressupdates.png",
+		"documentUrl": "/docs/progressupdates.pdf",
+		"date": "09-01-2024",
+		"research": "Not applicable",
+		"phase": "Presentations and Meetings",
+		"learningOutcomes": [6],
+		"LearningOutcomeClarification": "Learning outcome 6 applies to this deliverable as I communicated appropriately to ensure the right impact and execution during the progress updates with my semestercoach.",
+		"IctReasearchMethod": {
+			"Label": "Literature study",
+			"Url": false
+		},
+		"images": false
 	}
 }

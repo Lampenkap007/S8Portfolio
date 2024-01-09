@@ -162,6 +162,10 @@
 			{
 				"label": "Returnday",
 				"url": "/deliverables/returnday"
+			},
+			{
+				"label": "Progress Updates",
+				"url": "/deliverables/progressupdates"
 			}
 		]
 	}
