@@ -25,7 +25,7 @@
 		<button class="documentLink nobuttonstyle" on:click={goBack}>
 			<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"
 				><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" /></svg
-			><span>Home</span>
+			><span>Back</span>
 		</button>
 		<div class="contentBlockDevider">
 			<div class="contentBlockLeft">
