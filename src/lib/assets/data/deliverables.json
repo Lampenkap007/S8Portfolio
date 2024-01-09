@@ -556,5 +556,21 @@
 			"Url": false
 		},
 		"images": false
+	},
+	"projectethicsandsustainability": {
+		"name": "Project Ethics and Sustainability",
+		"summary": "In the concepting phase, we decided to use the livetiming API from Formula 1 as a data source. RN365 already uses this data source for its live timing stats. However, there are some ethical and sustainable considerations to keep in mind. <br><br> During the project, I spoke to several people to get their opinion of the use of the Formula 1 API. Based on these talks, I was able to shape my own ethical opinion on the issue and also consider the sustainable impact in case this data source would suddenly become unavailable. <br><br> The way the data source is used doesn’t provide any major sustainability or ethical risks. This is because the liveblog will still function like it’s used to function if the data isn’t available. Next, the data from the data source isn't used to directly make money off it. It only makes the process of keeping the liveblog up to date more easy for the editorial of RN365. And the data that is shared, is widely available on the internet anyway. Add this to the fact that Formula 1 has a responsibility in securing their data if they don’t want others using it, doesn’t make me think that using the data source is ethically wrong for the project. And by only sharing data that’s widely available, I don’t expect RN365 to run into any legal issues.",
+		"imageUrl": "/img/projectethicsandsustainability.png",
+		"documentUrl": "https://docs.google.com/document/d/1XwU2pPXw59ijWzwmRMzGs6O6u74va09cMHvzmA79kNI/edit?usp=sharing",
+		"date": "09-01-2024",
+		"research": "Not applicable",
+		"phase": "Orientation and Concepting",
+		"learningOutcomes": [3],
+		"LearningOutcomeClarification": "Learning outcome 3 applies for this deliverable as I considered ethical and sustainable aspects of the project.",
+		"IctReasearchMethod": {
+			"Label": "Literature study",
+			"Url": false
+		},
+		"images": false
 	}
 }
