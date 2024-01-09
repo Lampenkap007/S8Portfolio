@@ -540,5 +540,21 @@
 			"Url": false
 		},
 		"images": false
+	},
+	"codeimprovementsandfeedback": {
+		"name": "Code Improvements and Feedback",
+		"summary": "I’m always keen to improve my coding skills. Therefore, I asked John to have a look at my commits in Gitlab. John gave feedback on some specific things in my code and later we discussed some general improvements and good habits. <br><br> John didn’t find any major faults in my code. I should use more template literals, do more checks to prevent errors and potentially define more variables, just in case a color needs to be changed, it needs only to be changed in one place. <br><br> In general I could pay more attention to code structure. Things like defining variables and functions in one place would make code more readable. This also applies to avoiding large chunks of code.",
+		"imageUrl": "/img/codeimprovementsandfeedback.png",
+		"documentUrl": "https://docs.google.com/document/d/1SNjX0nxwXkJ-2NNpC2HK_tpX3EhUq4T5AH0kAgF_rME/edit?usp=sharing",
+		"date": "09-01-2024",
+		"research": "Not applicable",
+		"phase": "Personal Development",
+		"learningOutcomes": [5],
+		"LearningOutcomeClarification": "Learning outcome 5 applies for this deliverable as I pay close attention to my own learning ability and I received feedback on my work.",
+		"IctReasearchMethod": {
+			"Label": "Literature study",
+			"Url": false
+		},
+		"images": false
 	}
 }
