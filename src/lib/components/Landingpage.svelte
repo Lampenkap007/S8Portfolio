@@ -1,14 +1,16 @@
-<script>
-	import InternShipManager from './InternShipManager.svelte';
-</script>
-
 <div class="landingpage">
 	<div class="landingpageHero">
-		<h1>S8 Graduation</h1>
-		<h2>Improving the Grand Prix experience <br /> for F1 viewers at home</h2>
-		<h3>By Jordi Franssen</h3>
+		<h1>Welcome to my portfolio!</h1>
+		<p>
+			My name is Jordi, and on this page, you’ll find anything about my graduation internship at TDE
+			and the project I’ve been working on.
+			<br /><br />
+			My project is all about Formula 1! With RacingNews365, the fastest growing F1 news website in Europe,
+			I have developed a brand new liveblog experience for both RacingNews365 and the liveblog users
+			at home.
+		</p>
 	</div>
-	<InternShipManager />
+	<img class="fotovanmijnhoofd" src="/img/fotovanmijnhoofd.png" alt="Foto van mijn hoofd." />
 </div>
 
 <style lang="scss">
@@ -25,14 +27,18 @@
 		align-items: center;
 	}
 
-	h1 {
-		color: #ff6651;
-	}
-
 	.landingpageHero {
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
+		max-width: 40rem;
+		line-height: 28px;
+	}
+
+	.fotovanmijnhoofd {
+		border-radius: 100%;
+		height: 30rem;
+		width: 30rem;
 	}
 
 	@media only screen and (max-width: 1200px) {
