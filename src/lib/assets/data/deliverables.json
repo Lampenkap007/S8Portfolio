@@ -588,5 +588,34 @@
 			"Url": false
 		},
 		"images": false
+	},
+	"developingthepositionvisualization": {
+		"name": "Developing the Position Visualization",
+		"summary": "In a feedback meeting with RN365, it was discussed that the positions of the events happening during a race will not be visualized in 3D, but simply in an image. This is because 3D doesn’t provide any more context to the user and building it is quite complex.<br><br> To make the shape, we have to take the scale and position of the track into account. We discussed an approach and decided to make a separate tool that uses the location data in the data source to generate the shape of the track. This way the scale of the shape will always match with the data in the data source.<br><br> I started looping through the available data in the static API. This way a file can be selected that will be downloaded by the server. The logic for reading the file line by line, decrypting the content and sending it over to the client was taken from the PoC that I made earlier. <br><br> This works but I still found some challenges in cropping the canvas and I will deliver this tool as a PoC for generating the shapes instead of including it in the MVP with the liveblog.",
+		"imageUrl": "/img/developingthepositionvisualization.png",
+		"documentUrl": "https://docs.google.com/document/d/1vntXx-a2cMyZ3KRKxCZd7m0KngnY62w4ThEzgSZGKBw/edit?usp=sharing",
+		"date": "02-01-2024",
+		"research": "Not applicable",
+		"phase": "Development",
+		"learningOutcomes": [1],
+		"LearningOutcomeClarification": "Learning outcome 1 applies for this deliverable as this is a professional duty on a bachelor level in the activity of realization as I realized a POC for generating the shape of a racetrack.",
+		"IctReasearchMethod": {
+			"Label": "Literature study",
+			"Url": false
+		},
+		"images": [
+			{
+				"Url": "/img/trackshapetool.png",
+				"Caption": "Tool for generating the shape."
+			},
+			{
+				"Url": "/img/upsidedownpig.png",
+				"Caption": "VegasGP not in the middle."
+			},
+			{
+				"Url": "/img/dutchgp.png",
+				"Caption": "Border-radius too large for DutchGP."
+			}
+		]
 	}
 }
