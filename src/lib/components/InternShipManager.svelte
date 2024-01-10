@@ -55,7 +55,6 @@
 		border-radius: 8px;
 		text-align: center;
 		border-radius: 2rem;
-		width: 65rem;
 	}
 
 	.profile-card {
