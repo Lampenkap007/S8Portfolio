@@ -15,6 +15,10 @@
 			{
 				"label": "Git Code Management",
 				"url": "/deliverables/gitcodemanagement"
+			},
+			{
+				"label": "Advice for Further Development",
+				"url": "/deliverables/adviceforfurtherdevelopment"
 			}
 		]
 	},
