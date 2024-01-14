@@ -633,5 +633,21 @@
 			"Url": false
 		},
 		"images": false
+	},
+	"designanddevelopmentreflection": {
+		"name": "Design and Development Reflection",
+		"summary": "In my last reflection moment, I used a new approach. In this reflection I used the same topics again because I prefer this way of reflecting. In the last few weeks I elaborated my project into a working MVP. I call this an achievement. Next to the success of my own project, I have also been busy with some side activities. I attended the WayWayWeb conference in Malaga, and reported the things I learned back to the team. I also worked on a client project for TDE. This was also helpful for my own project as this project was set up in a similar way as RN365. <br><br> The more personal part of my reflection is a major improvement over the last reflection. In my last reflection I reflected on how I struggled to adapt to working from home. I’m still most productive at the office, but I learned what activities I can better avoid doing at home, like documenting for my portfolio, to keep my productivity at home up. I can also say that I’m completely over my post travel blues and I believe that this also fixed my struggles with achieving good sleep.",
+		"imageUrl": "/img/designanddevelopmentreflection.png",
+		"documentUrl": "https://docs.google.com/document/d/1DbnLgD8UtZIFmolAxS_IF_KFB3lB5mxmRnVkXrwCXGY/edit?usp=sharing",
+		"date": "12-01-2024",
+		"research": "Not applicable",
+		"phase": "Entire project",
+		"learningOutcomes": [5],
+		"LearningOutcomeClarification": "Learning outcome 5 applies for this deliverable as I showed that I can reflect on my own actions.",
+		"IctReasearchMethod": {
+			"Label": "Literature study",
+			"Url": false
+		},
+		"images": false
 	}
 }
