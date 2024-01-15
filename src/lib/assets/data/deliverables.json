@@ -649,5 +649,21 @@
 			"Url": false
 		},
 		"images": false
+	},
+	"approachforthefinalpresentation": {
+		"name": "Approach for the Final Presentation",
+		"summary": "The deadline for the project is January 16th and my graduation conference is February 8th. So, I got three weeks to prepare a presentation. Therefore, I won’t be able to include the slides of this presentation in my assessment, but I want to at least share my plans for this presentation.<br><br> I’m planning to do a final rehearsal of my presentation during the company visit of my semestercoach Erik. For this presentation I also invited the entire team of TDE and Jan and Ruud from RN365. I believe this audience is perfect for my final rehearsal as these are the people who will be working with the project and therefore can come up with good critical questions for me to prepare for during the graduation conference.<br><br> I also want to include persuasive communication techniques to convince the audience that my product is the best solution to the problem statement. I will rely on the rhetorical triangle and the social judgment theory and to increase the credibility of my work, I will introduce an editor of RN365 as an expert on the topic in a video about the project.",
+		"imageUrl": "/img/approachforthefinalpresentation.png",
+		"documentUrl": "https://docs.google.com/document/d/1BXFvMsY2REZe8e3NsyqNmSjsr177wdWCCRK8nQhDznk/edit?usp=sharing",
+		"date": "15-01-2024",
+		"research": "Not applicable",
+		"phase": "Entire project",
+		"learningOutcomes": [2, 6],
+		"LearningOutcomeClarification": "Learning outcome 2 applies for this deliverable as I applied previously acquired knowledge about persuasive communication techniques.<br><br> Learning outcome 6 applies to this deliverable as I communicated appropriately with partners to achieve the desired impact, which is to convince everyone that my digital solution is best for the problem statement.",
+		"IctReasearchMethod": {
+			"Label": "Literature study",
+			"Url": false
+		},
+		"images": false
 	}
 }

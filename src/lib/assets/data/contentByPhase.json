@@ -178,6 +178,10 @@
 			{
 				"label": "Progress Updates",
 				"url": "/deliverables/progressupdates"
+			},
+			{
+				"label": "Approach for the Final Presentation",
+				"url": "/deliverables/appraochforthefinalpresentation"
 			}
 		]
 	}
