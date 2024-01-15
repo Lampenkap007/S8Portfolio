@@ -9,11 +9,7 @@
 			I have developed a brand new liveblog experience for both RacingNews365 and the liveblog users
 			at home.
 		</p>
-		<a
-			target="_blank"
-			class="button"
-			href="https://chat.openai.com/g/g-CbAMaCFWK-jordi-s-internship-manager"
-		>
+		<a target="_blank" class="button" href="/docs/portfolioreadingguide.pdf">
 			<p class="readingGuide">Portfolio Reading Guide</p>
 
 			<svg
