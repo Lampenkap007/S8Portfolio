@@ -9,6 +9,29 @@
 			I have developed a brand new liveblog experience for both RacingNews365 and the liveblog users
 			at home.
 		</p>
+		<a
+			target="_blank"
+			class="button"
+			href="https://chat.openai.com/g/g-CbAMaCFWK-jordi-s-internship-manager"
+		>
+			<p class="readingGuide">Portfolio Reading Guide</p>
+
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="20"
+				height="20"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				class="feather feather-external-link"
+				><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /><polyline
+					points="15 3 21 3 21 9"
+				/><line x1="10" y1="14" x2="21" y2="3" /></svg
+			></a
+		>
 	</div>
 	<img class="fotovanmijnhoofd" src="/img/fotovanmijnhoofd.png" alt="Foto van mijn hoofd." />
 </div>
@@ -39,6 +62,32 @@
 		border-radius: 100%;
 		height: 30rem;
 		width: 30rem;
+	}
+
+	.button {
+		background: #54baf3;
+		text-decoration: none;
+		color: #fff;
+		border: none;
+		padding: 20px;
+		margin-top: 12px;
+		border-radius: 15px;
+		cursor: pointer;
+		font-size: 14px;
+		font-weight: bold;
+		transition: background 0.3s ease;
+		width: fit-content;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.readingGuide {
+		margin-bottom: -2px;
+	}
+
+	.button:hover {
+		background: #397da5;
 	}
 
 	@media only screen and (max-width: 1200px) {
